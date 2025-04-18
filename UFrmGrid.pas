@@ -23,11 +23,28 @@ type
   public
     { Public declarations }
     procedure SetCaption (aCaption : string ) ;
+    procedure AttachDataSource(aDataSource : TDataSource);
   end;
 
 implementation
 
 {$R *.dfm}
+
+uses
+cxCalendar;
+
+procedure TfrmGrid.AttachDataSource(aDataSource: TDataSource);
+begin
+    cxGrid1DBTableView1.ClearItems;
+    cxGrid1DBTableView1.DataController.DataSource := aDataSource;
+
+    cxGrid1DBTableView1.DataController.CreateAllItems();
+
+    cxGrid1DBTableView1.Items[0].Visible := False;
+    cxGrid1DBTableView1.Items[1].PropertiesClass := TcxDateEditProperties
+
+
+end;
 
 { TFrame1 }
 

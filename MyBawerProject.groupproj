@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F8E44870-6B99-4479-B15A-FBBCF604EEE8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MyBawer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BawerEntities.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MyBawer">
+        <MSBuild Projects="MyBawer.dproj"/>
+    </Target>
+    <Target Name="MyBawer:Clean">
+        <MSBuild Projects="MyBawer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyBawer:Make">
+        <MSBuild Projects="MyBawer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BawerEntities">
+        <MSBuild Projects="BawerEntities.dproj"/>
+    </Target>
+    <Target Name="BawerEntities:Clean">
+        <MSBuild Projects="BawerEntities.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BawerEntities:Make">
+        <MSBuild Projects="BawerEntities.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MyBawer;BawerEntities"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MyBawer:Clean;BawerEntities:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MyBawer:Make;BawerEntities:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -12,7 +12,6 @@ object frmGrid: TfrmGrid
     Align = alTop
     Caption = 'Panel1'
     TabOrder = 0
-    ExplicitLeft = -3
   end
   object cxGrid1: TcxGrid
     Left = 0
@@ -21,16 +20,18 @@ object frmGrid: TfrmGrid
     Height = 420
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = 192
-    ExplicitTop = -80
-    ExplicitWidth = 250
-    ExplicitHeight = 200
     object cxGrid1DBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
+      Navigator.Visible = True
       ScrollbarAnnotations.CustomAnnotations = <>
       DataController.Summary.DefaultGroupSummaryItems = <>
       DataController.Summary.FooterSummaryItems = <>
       DataController.Summary.SummaryGroups = <>
+      OptionsData.CancelOnExit = False
+      OptionsData.Deleting = False
+      OptionsData.DeletingConfirmation = False
+      OptionsData.Editing = False
+      OptionsData.Inserting = False
     end
     object cxGrid1Level1: TcxGridLevel
       GridView = cxGrid1DBTableView1
@@ -42,8 +43,5 @@ object frmGrid: TfrmGrid
     Width = 640
     Height = 19
     Panels = <>
-    ExplicitLeft = 1
-    ExplicitTop = 21
-    ExplicitWidth = 638
   end
 end
