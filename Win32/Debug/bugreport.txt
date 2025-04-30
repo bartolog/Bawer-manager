@@ -1,997 +1,383 @@
-date/time          : 2025-04-18, 13:45:51, 514ms
+date/time          : 2025-04-30, 10:32:31, 185ms
 computer name      : DESKTOP-0R03PDH
 user name          : barto <admin>
 registered owner   : bartolomeo.giorgio@gmail.com
 operating system   : Windows 10 x64 build 19045
 system language    : Italian
-system up time     : 7 days 5 hours
-program up time    : 1 minute 3 seconds
+system up time     : 1 hour 51 minutes
+program up time    : 55 seconds
 processors         : 4x Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-physical memory    : 1657/8129 MB (free/total)
-free disk space    : (C:) 126,31 GB
+physical memory    : 1838/8129 MB (free/total)
+free disk space    : (C:) 132,82 GB
 display mode       : 1920x1080, 32 bit
-process id         : $e4
-allocated memory   : 250,46 MB
-largest free block : 898,05 MB
+process id         : $114c
+allocated memory   : 234,10 MB
+largest free block : 937,92 MB
 executable         : MyBawer.exe
-exec. date/time    : 2025-04-18 13:44
+exec. date/time    : 2025-04-30 10:31
 version            : 1.0.0.0
 compiled with      : Delphi 12
 madExcept version  : 5.1.5
-callstack crc      : $8cf5b1b7, $bc0c8d27, $bc0c8d27
-exception number   : 4
-exception class    : EDatabaseError
-exception message  : 'Lucidatura' is not a valid integer value for field 'TipoLavoro'.
-
-main thread ($41dc):
-013c7e22 +0de MyBawer.exe  Data.DB                3254  +10 DatabaseError
-013c7ec1 +031 MyBawer.exe  Data.DB                3260   +1 DatabaseErrorFmt
-013cea0d +059 MyBawer.exe  Data.DB                6416   +1 TNumericField.InvalidIntegerError
-013cf091 +02d MyBawer.exe  Data.DB                6602   +5 TIntegerField.SetAsString
-013cebd7 +03b MyBawer.exe  Data.DB                6453   +4 TNumericField.SetText
-013ccf8f +073 MyBawer.exe  Data.DB                5739   +7 TField.SetEditText
-0196753c +068 MyBawer.exe  cxDBData               2781   +6 TcxDBDataProvider.SetEditValue
-00f82796 +052 MyBawer.exe  cxCustomData           6014   +2 TcxCustomDataController.SetEditValue
-01b59026 +036 MyBawer.exe  cxGridCustomTableView 12449   +1 TcxCustomGridTableItem.SetEditValue
-01c42b1e +0e2 MyBawer.exe  cxGridTableView       20175  +15 TcxCustomGridColumn.SetEditValue
-01b6b5a7 +017 MyBawer.exe  cxGridCustomTableView 20919   +1 TcxGridEditingController.SetValue
-00ff42fa +0aa MyBawer.exe  cxEdit                 5410  +10 TcxCustomEditingController.UpdateValue
-01b726cc +074 MyBawer.exe  cxGridCustomTableView 23915   +9 TcxCustomGridTableController.CheckEditing
-01b72dac +018 MyBawer.exe  cxGridCustomTableView 24114   +1 TcxCustomGridTableController.FocusNextRecord
-01c2ca14 +084 MyBawer.exe  cxGridTableView       10679   +5 TcxGridTableController.KeyDown$ActRec.$1$Body
-01b6cd90 +03c MyBawer.exe  cxGridCustomTableView 21629   +3 TcxCustomGridTableController.AllowRecordScrollAnimationOnMakeVisible
-01c2ceb8 +3a4 MyBawer.exe  cxGridTableView       10672  +83 TcxGridTableController.KeyDown
-01b95755 +01d MyBawer.exe  cxGridCustomView       3925   +1 TcxCustomGridController.DoKeyDown
-01b70b15 +0d5 MyBawer.exe  cxGridCustomTableView 23333  +18 TcxCustomGridTableController.DoKeyDown
-01c2c3ee +026 MyBawer.exe  cxGridTableView       10576   +2 TcxGridTableController.DoKeyDown
-01b6b60d +059 MyBawer.exe  cxGridCustomTableView 20930   +4 TcxGridEditingController.EditAfterKeyDown
-00fff4e8 +048 MyBawer.exe  cxEdit                10078   +4 TcxCustomEdit.DoAfterKeyDown
-00fcfaec +1d0 MyBawer.exe  cxTextEdit             6001  +44 TcxCustomTextEdit.DoEditKeyDown
-0113b15a +042 MyBawer.exe  cxMaskEdit             2569   +3 TcxCustomMaskEdit.DoEditKeyDown
-0114be1c +108 MyBawer.exe  cxDropDownEdit         2690  +26 TcxCustomDropDownEdit.DoEditKeyDown
-00ffe14b +0a3 MyBawer.exe  cxEdit                 9547  +14 TcxCustomEdit.KeyDown
-0113bb32 +026 MyBawer.exe  cxMaskEdit             2809   +2 TcxCustomMaskEdit.KeyDown
-00fc6ea8 +03c MyBawer.exe  cxTextEdit             2463   +3 TcxCustomInnerTextEdit.KeyDown
-00bf0e0e +092 MyBawer.exe  Vcl.Controls          12199  +23 TWinControl.DoKeyDown
-00bf0e3a +00a MyBawer.exe  Vcl.Controls          12209   +1 TWinControl.WMKeyDown
-00fc8174 +100 MyBawer.exe  cxTextEdit             2942  +13 TcxCustomInnerTextEdit.WMKeyDown
-00be9c32 +2be MyBawer.exe  Vcl.Controls           7920  +91 TControl.WndProc
-00bef2e7 +6a7 MyBawer.exe  Vcl.Controls          11154 +178 TWinControl.WndProc
-00fc74c3 +29b MyBawer.exe  cxTextEdit             2606  +61 TcxCustomInnerTextEdit.WndProc
-00bee7ac +02c MyBawer.exe  Vcl.Controls          10823   +3 TWinControl.MainWndProc
-00b59c28 +014 MyBawer.exe  System.Classes        19091   +8 StdWndProc
-75ba5f4b +00b USER32.dll                                    DispatchMessageW
-00cccad7 +0f3 MyBawer.exe  Vcl.Forms             13376  +23 TApplication.ProcessMessage
-00cccb1a +00a MyBawer.exe  Vcl.Forms             13406   +1 TApplication.HandleMessage
-00ccce59 +0d1 MyBawer.exe  Vcl.Forms             13545  +27 TApplication.Run
-01c97569 +061 MyBawer.exe  MyBawer                  26   +5 initialization
-7564fcc7 +017 KERNEL32.DLL                                  BaseThreadInitThunk
-
-thread $3e18:
-7564fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
-
-thread $18c8:
-7564fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
-
-thread $734:
-7564fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
-
-thread $1088:
-7564fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
-
-thread $fa8:
-7564fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
-
-thread $46dc: <priority:2>
-75b93edf +4f USER32.dll             GetMessageA
-00ac81ad +0d MyBawer.exe  madExcept CallThreadProcSafe
-00ac8212 +32 MyBawer.exe  madExcept ThreadExceptFrame
-00ac8288 +a8 MyBawer.exe  madExcept ThreadExceptFrame
-7564fcc7 +17 KERNEL32.DLL           BaseThreadInitThunk
->> created by main thread ($41dc) at:
-722c34b5 +00 winmm.dll
-
-modules:
-00a10000 MyBawer.exe            1.0.0.0             C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
-0ca30000 WINSTA.dll             10.0.19041.3636     C:\WINDOWS\SYSTEM32
-0cbd0000 gdiplus.dll            10.0.19041.5369     C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.5369_none_d9518ab7e1044dec
-0e0a0000 windows.storage.dll    10.0.19041.5678     C:\WINDOWS\SYSTEM32
-0e6c0000 Wldp.dll               10.0.19041.5737     C:\WINDOWS\SYSTEM32
-0e9f0000 profapi.dll            10.0.19041.5553     C:\WINDOWS\SYSTEM32
-10000000 textinputframework.dll 10.0.19041.5198     C:\WINDOWS\SYSTEM32
-11340000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
-127e0000 CoreUIComponents.dll   10.0.19041.3636     C:\WINDOWS\System32
-12a60000 CoreMessaging.dll      10.0.19041.5486     C:\WINDOWS\System32
-12b00000 wintypes.dll           10.0.19041.5369     C:\WINDOWS\SYSTEM32
-52480000 c_iscii.dll            10.0.19041.1        C:\WINDOWS\system32
-52490000 c_g18030.dll           10.0.19041.3636     C:\WINDOWS\system32
-5b380000 c_is2022.dll           10.0.19041.3636     C:\WINDOWS\system32
-6ad50000 msimg32.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-6ad80000 oledlg.dll             10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6adb0000 oleacc.dll             7.2.19041.3636      C:\WINDOWS\SYSTEM32
-6b830000 propsys.dll            7.0.19041.5369      C:\WINDOWS\SYSTEM32
-6f3c0000 dbgcore.DLL            10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6f3f0000 FaultRep.dll           10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6f5d0000 apphelp.dll            10.0.19041.5678     C:\WINDOWS\SYSTEM32
-70270000 SHFolder.dll           10.0.19041.1        C:\WINDOWS\SYSTEM32
-70280000 wsock32.dll            10.0.19041.1        C:\WINDOWS\SYSTEM32
-70290000 uxtheme.dll            10.0.19041.5247     C:\WINDOWS\system32
-71bb0000 SspiCli.dll            10.0.19041.4239     C:\WINDOWS\SYSTEM32
-71c10000 dwmapi.dll             10.0.19041.5737     C:\WINDOWS\SYSTEM32
-71d30000 WTSAPI32.DLL           10.0.19041.3636     C:\WINDOWS\SYSTEM32
-71d70000 dbghelp.dll            10.0.19041.3996     C:\WINDOWS\SYSTEM32
-71f00000 COMCTL32.dll           6.10.19041.4355     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c28672571c
-722c0000 winmm.dll              10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74b10000 kernel.appcore.dll     10.0.19041.3758     C:\WINDOWS\SYSTEM32
-74d50000 ntmarta.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74dc0000 winspool.drv           10.0.19041.5678     C:\WINDOWS\SYSTEM32
-74e40000 version.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74e50000 KERNELBASE.dll         10.0.19041.5737     C:\WINDOWS\System32
-75090000 bcryptPrimitives.dll   10.0.19041.5438     C:\WINDOWS\System32
-750f0000 msvcp_win.dll          10.0.19041.3636     C:\WINDOWS\System32
-755b0000 IMM32.DLL              10.0.19041.5737     C:\WINDOWS\System32
-75600000 GDI32.dll              10.0.19041.5737     C:\WINDOWS\System32
-75630000 KERNEL32.DLL           10.0.19041.5678     C:\WINDOWS\System32
-75880000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
-75900000 ucrtbase.dll           10.0.19041.3636     C:\WINDOWS\System32
-75a20000 comdlg32.dll           10.0.19041.4355     C:\WINDOWS\System32
-75ad0000 bcrypt.dll             10.0.19041.5438     C:\WINDOWS\System32
-75af0000 advapi32.dll           10.0.19041.5737     C:\WINDOWS\System32
-75b70000 USER32.dll             10.0.19041.5737     C:\WINDOWS\System32
-75d10000 combase.dll            10.0.19041.5369     C:\WINDOWS\System32
-75fa0000 RPCRT4.dll             10.0.19041.5438     C:\WINDOWS\System32
-76060000 CFGMGR32.dll           10.0.19041.3996     C:\WINDOWS\System32
-76100000 sechost.dll            10.0.19041.5737     C:\WINDOWS\System32
-76210000 shlwapi.dll            10.0.19041.4355     C:\WINDOWS\System32
-76260000 ole32.dll              10.0.19041.5369     C:\WINDOWS\System32
-763b0000 oleaut32.dll           10.0.19041.3636     C:\WINDOWS\System32
-764c0000 WS2_32.dll             10.0.19041.3636     C:\WINDOWS\System32
-76530000 SHELL32.dll            10.0.19041.5678     C:\WINDOWS\System32
-76c80000 win32u.dll             10.0.19041.5737     C:\WINDOWS\System32
-76ca0000 MSCTF.dll              10.0.19041.5678     C:\WINDOWS\System32
-76d80000 Normaliz.dll           10.0.19041.3636     C:\WINDOWS\System32
-76d90000 msvcrt.dll             7.0.19041.3636      C:\WINDOWS\System32
-76e50000 gdi32full.dll          10.0.19041.5737     C:\WINDOWS\System32
-76f40000 shcore.dll             10.0.19041.5678     C:\WINDOWS\System32
-76fd0000 psapi.dll              10.0.19041.3636     C:\WINDOWS\System32
-76ff0000 ntdll.dll              10.0.19041.5737     C:\WINDOWS\SYSTEM32
-79420000 madExcept32.dll        4.0.6.0             C:\Program Files (x86)\madCollection\madExcept\Dlls
-
-processes:
-0000 Idle                                               0 0    0
-0004 System                                             0 0    0
-0064 Registry                                           0 0    0
-01b4 smss.exe                                           0 0    0
-026c csrss.exe                                          0 0    0
-02e4 wininit.exe                                        0 0    0
-03a4 services.exe                                       0 0    0
-03ac lsass.exe                                          0 0    0    normal       C:\Windows\System32
-024c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0264 fontdrvhost.exe                                    0 0    0    normal       C:\Windows\System32
-0238 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0284 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-04a8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-04b8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-04c4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0518 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0540 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-05b0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-05bc svchost.exe                                        0 0    0    normal       C:\Windows\System32
-05c4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-05e8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0634 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0668 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-06a8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-071c nvvsvc.exe                                         0 0    0    normal       C:\Windows\System32
-072c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0738 nvSCPAPISvr.exe                                    0 0    0    normal       C:\Program Files (x86)\NVIDIA Corporation\3D Vision
-076c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-07a0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-07c4 dasHost.exe                                        0 0    0    normal       C:\Windows\System32
-0630 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0810 PresentationFontCache.exe                          0 0    0    normal       C:\Windows\Microsoft.NET\Framework64\v3.0\WPF
-0860 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0878 atiesrxx.exe                                       0 0    0    normal       C:\Windows\System32
-08a4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0918 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0920 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0974 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-097c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0998 Memory Compression                                 0 0    0
-0a08 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0a68 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0b7c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0b94 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-07a8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0c08 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0c20 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0c84 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0d08 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0da0 spoolsv.exe                                        0 0    0    normal       C:\Windows\System32
-0dd4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0e4c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0e58 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0ef8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0fc0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-08b0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0c40 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0e54 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1070 ibguard.exe                                        0 0    0    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
-1080 OneApp.IGCC.WinService.exe                         0 0    0    normal       C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad
-1094 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-10c0 IpOverUsbSvc.exe                                   0 0    0    normal       C:\Program Files (x86)\Common Files\Microsoft Shared\Phone Tools\CoreCon\11.0\bin
-10e0 KDService.exe                                      0 0    0    normal       C:\Program Files\KDService\bin
-1104 MpDefenderCoreService.exe                          0 0    0
-1150 mysqld.exe                                         0 0    0    normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
-1198 pg_ctl.exe                                         0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-11d0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-11e4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1208 SqlBak.Service.exe                                 0 0    0    normal       C:\Program Files (x86)\SQLBackupAndFTP
-1240 sqlwriter.exe                                      0 0    0    normal       C:\Program Files\Microsoft SQL Server\90\Shared
-124c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1258 SupremoService.exe                                 0 0    0    normal       C:\Program Files (x86)\Supremo
-1264 VeeamDeploymentSvc.exe                             0 0    0    normal       C:\Windows\Veeam\Backup
-1270 Veeam.Backup.Agent.ConfigurationService.exe        0 0    0    normal       C:\Program Files\Veeam\Veeam Distribution Service
-1288 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-12b8 VeeamFilesysVssSvc.exe                             0 0    0    normal       C:\Program Files\Veeam\Backup File System VSS Integration
-12c4 VeeamNFSSvc.exe                                    0 0    0    normal       C:\Program Files (x86)\Veeam\vPowerNFS
-12f8 vmware-authd.exe                                   0 0    0    normal       C:\Program Files (x86)\VMware\VMware Player
-1300 vmnetdhcp.exe                                      0 0    0    normal       C:\Windows\SysWOW64
-1308 VeeamTransportSvc.exe                              0 0    0    normal       C:\Program Files (x86)\Veeam\Backup Transport
-1320 vmware-usbarbitrator64.exe                         0 0    0    normal       C:\Program Files (x86)\Common Files\VMware\USB
-1384 vmnat.exe                                          0 0    0    normal       C:\Windows\SysWOW64
-13d4 MsMpEng.exe                                        0 0    0
-13f8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1020 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1564 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1570 mysqld.exe                                         0 0    0    normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
-15f8 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-1770 Veeam.Guest.Interaction.Proxy.exe                  0 0    0    normal       C:\Program Files (x86)\Veeam\Backup Transport\GuestInteraction
-1788 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-18f4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1910 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1938 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1950 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-19d0 dllhost.exe                                        0 0    0    normal       C:\Windows\System32
-1b0c postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1b18 WmiPrvSE.exe                                       0 0    0    normal       C:\Windows\System32\wbem
-1b28 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1b30 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1b98 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1ba0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1ba8 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-0ff8 AggregatorHost.exe                                 0 0    0    normal       C:\Windows\System32
-1d5c ibserver.exe                                       0 0    0    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
-1ecc NisSrv.exe                                         0 0    0
-0e30 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1e10 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-1e30 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-14b0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-219c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-2860 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-2bb0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-2514 SecurityHealthService.exe                          0 0    0
-2b00 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-17f0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0584 sqlservr.exe                                       0 0    0    normal       C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
-0614 sqlceip.exe                                        0 0    0    below normal C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
-1798 Veeam.CloudBackup.PlatformService.exe              0 0    0    normal       C:\Program Files\Veeam\Plugins\AWS\Service
-24c8 Veeam.Azure.PlatformSvc.exe                        0 0    0    normal       C:\Program Files\Veeam\Plugins\Microsoft Azure\Service
-203c Veeam.Backup.RestAPIService.exe                    0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-10cc Veeam.Backup.Service.exe                           0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2790 Veeam.Backup.UIServer.exe                          0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-26d4 Veeam.Backup.BrokerService.exe                     0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-0d9c Veeam.Backup.ExternalInfrastructure.DbProvider.exe 0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2b98 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-2d64 Veeam.Backup.WmiServer.exe                         0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2d78 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-3018 Veeam.Backup.CatalogDataService.exe                0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup Catalog
-32a4 Veeam.Backup.CloudService.exe                      0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-33f0 Veeam.StandBy.Service.exe                          0 0    0    normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Explorers Recovery Service
-2bf8 Veeam.GCP.PlatformService.WebService.exe           0 0    0    normal       C:\Program Files\Veeam\Plugins\GCP\Service
-348c Veeam.Backup.PlatformServices.Kasten.exe           0 0    0    normal       C:\Program Files\Veeam\Plugins\Kasten K10\Service
-3638 Veeam.Backup.MountService.exe                      0 0    0    normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Mount Service
-373c svchost.exe                                        0 0    0
-37a0 Veeam.Backup.Cdp.Service.exe                       0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-23d8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-237c OfficeClickToRun.exe                               0 0    0    normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
-36dc SearchIndexer.exe                                  0 0    0    normal       C:\Windows\System32
-18b8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0dec MoUsoCoreWorker.exe                                0 0    0    normal       C:\Windows\System32
-1e00 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-3cb4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-3864 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-0b78 svchost.exe                                        0 0    0
-3af8 Veeam.Backup.Manager.exe                           0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-0c8c conhost.exe                                        0 0    0    normal       C:\Windows\System32
-2bf4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-22b8 armsvc.exe                                         0 0    0    normal       C:\Program Files (x86)\Common Files\Adobe\ARM\1.0
-2d08 csrss.exe                                          5 0    0
-42e8 winlogon.exe                                       5 5    0    high         C:\Windows\System32
-1580 fontdrvhost.exe                                    5 0    0    normal       C:\Windows\System32
-181c dwm.exe                                            5 16   3    high         C:\Windows\System32
-3d78 atieclxx.exe                                       5 0    4    normal       C:\Windows\System32
-43c0 nvxdsync.exe                                       5 25   8    normal       C:\Program Files\NVIDIA Corporation\Display
-36a4 nvvsvc.exe                                         5 2    5    normal       C:\Windows\System32
-14ec Supremo.exe                                        5 52   64   normal       C:\Program Files (x86)\Supremo
-1848 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-3f38 Veeam.Backup.Satellite.exe                         0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
-1314 conhost.exe                                        0 0    0    normal       C:\Windows\System32
-4070 sihost.exe                                         5 0    7    normal       C:\Windows\System32
-0874 svchost.exe                                        5 0    1    normal       C:\Windows\System32
-304c svchost.exe                                        5 0    4    normal       C:\Windows\System32
-4524 taskhostw.exe                                      5 10   6    normal       C:\Windows\System32
-3138 explorer.exe                                       5 648  421  normal       C:\Windows
-1050 ctfmon.exe                                         5 2    22   high         C:\Windows\System32
-29d8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
-17e0 SupremoHelper.exe                                  5 58   35   normal       C:\Windows\Temp\SupremoRemoteDesktop
-08f0 svchost.exe                                        5 0    8    normal       C:\Windows\System32
-26b4 dllhost.exe                                        5 0    3    normal       C:\Windows\System32
-47ac StartMenuExperienceHost.exe                        5 0    12   normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
-0844 svchost.exe                                        5 0    1    normal       C:\Windows\System32
-2de8 RuntimeBroker.exe                                  5 8    1    normal       C:\Windows\System32
-2b54 UserOOBEBroker.exe                                 5 0    1    normal       C:\Windows\System32\oobe
-0e18 SearchApp.exe                                      5 25   89   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
-225c RuntimeBroker.exe                                  5 47   23   normal       C:\Windows\System32
-2480 ShellExperienceHost.exe                            5 0    24   normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
-221c nvtray.exe                                         5 76   4    normal       C:\Program Files\NVIDIA Corporation\Display
-31cc RuntimeBroker.exe                                  5 40   1    normal       C:\Windows\System32
-19f0 NvBackend.exe                                      5 0    1    normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
-3b4c MicrosoftSecurityApp.exe                           5 27   24   normal       C:\Program Files\WindowsApps\Microsoft.6365217CE6EB4_102.2504.11001.0_x64__8wekyb3d8bbwe\MicrosoftSecurityApp
-0f64 RuntimeBroker.exe                                  5 0    1    normal       C:\Windows\System32
-2cbc thunderbird.exe                                    5 57   73   normal       C:\Program Files\Mozilla Thunderbird
-2724 thunderbird.exe                                    5 1    15   normal       C:\Program Files\Mozilla Thunderbird
-3144 thunderbird.exe                                    5 0    0    normal       C:\Program Files\Mozilla Thunderbird
-1f7c RuntimeBroker.exe                                  5 0    3    normal       C:\Windows\System32
-1480 SystemSettings.exe                                 5 11   32   normal       C:\Windows\ImmersiveControlPanel
-2ec8 ApplicationFrameHost.exe                           5 38   17   normal       C:\Windows\System32
-413c TextInputHost.exe                                  5 0    23   normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
-3e98 dllhost.exe                                        5 0    3    normal       C:\Windows\System32
-08d8 SearchApp.exe                                      5 0    20   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
-3920 msedgewebview2.exe                                 5 22   37   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-0694 msedgewebview2.exe                                 5 2    3    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-25e4 msedgewebview2.exe                                 5 5    13   above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-165c msedgewebview2.exe                                 5 0    5    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-3be0 msedgewebview2.exe                                 5 0    0    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-293c msedgewebview2.exe                                 5 0    0    idle         C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-447c TMSDashboard.exe                                   5 25   31   normal       C:\Users\barto\Desktop\TMS programs
-3d20 msedgewebview2.exe                                 5 27   37   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-2d40 msedgewebview2.exe                                 5 2    3    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-14e8 msedgewebview2.exe                                 5 8    12   above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-2604 msedgewebview2.exe                                 5 0    5    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-3b70 msedgewebview2.exe                                 5 0    0    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-21b0 msedgewebview2.exe                                 5 0    0    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-1790 chrome.exe                                         5 99   89   normal       C:\Program Files\Google\Chrome\Application
-3fa8 chrome.exe                                         5 2    4    normal       C:\Program Files\Google\Chrome\Application
-2b64 chrome.exe                                         5 15   14   above normal C:\Program Files\Google\Chrome\Application
-1650 chrome.exe                                         5 0    3    normal       C:\Program Files\Google\Chrome\Application
-0ca4 chrome.exe                                         5 0    0    normal       C:\Program Files\Google\Chrome\Application
-11b4 chrome.exe                                         5 0    0    normal       C:\Program Files\Google\Chrome\Application
-1a78 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-126c chrome.exe                                         5 0    0    normal       C:\Program Files\Google\Chrome\Application
-3da8 chrome.exe                                         5 0    1    normal       C:\Program Files\Google\Chrome\Application
-0f38 AdobeCollabSync.exe                                5 12   7    below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
-0d5c AdobeCollabSync.exe                                5 0    2    below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
-1f00 prevhost.exe                                       5 2    5    normal       C:\Windows\System32
-1f38 EXCEL.EXE                                          5 299  160  normal       C:\Program Files\Microsoft Office\root\Office16
-3d44 EXCEL.EXE                                          5 394  182  normal       C:\Program Files\Microsoft Office\root\Office16
-4580 splwow64.exe                                       5 0    3    normal       C:\Windows
-37ec bds.exe                                            5 3237 1067 normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-3d8c DelphiLSP.exe                                      5 0    5    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-3d64 conhost.exe                                        5 10   9    normal       C:\Windows\System32
-370c DelphiLSP.exe                                      5 0    3    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-0c30 DelphiLSP.exe                                      5 0    1    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-350c msedge.exe                                         5 2    28   normal       C:\Program Files (x86)\Microsoft\Edge\Application
-0b74 msedge.exe                                         5 0    3    normal       C:\Program Files (x86)\Microsoft\Edge\Application
-3cac msedge.exe                                         5 0    5    normal       C:\Program Files (x86)\Microsoft\Edge\Application
-33fc msedge.exe                                         5 1    4    above normal C:\Program Files (x86)\Microsoft\Edge\Application
-3a4c msedge.exe                                         5 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
-1c20 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-1024 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-2cf0 chrome.exe                                         5 0    1    normal       C:\Program Files\Google\Chrome\Application
-4124 chrome.exe                                         5 0    1    normal       C:\Program Files\Google\Chrome\Application
-3ec0 SQLiteStudio.exe                                   5 54   36   normal       C:\Program Files\SQLiteStudio
-1d9c svchost.exe                                        0 0    0    normal       C:\Windows\System32
-101c chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-42a4 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-2bd8 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-2d2c chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-0434 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-1f04 audiodg.exe                                        0 0    0    normal       C:\Windows\System32
-244c chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-00e4 MyBawer.exe                                        5 361  162  normal       C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
-2278 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-4414 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-12f4 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-3fc8 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1cb0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-31b4 chrome.exe                                         5 0    0    idle         C:\Program Files\Google\Chrome\Application
-30a0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-1c50 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
-438c SearchProtocolHost.exe                             5 0    1    idle         C:\Windows\System32
-417c SearchFilterHost.exe                               0 0    0    idle         C:\Windows\System32
-
-hardware:
-+ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
-  - Coda di stampa radice
-  - Fax
-  - HP PageWide P55250 [A64E6A]
-  - Kyocera TASKalfa 4054ci
-  - Kyocera TASKalfa 4054ci (KPDL)
-  - Kyocera TASKalfa 4054ci KX
-  - Kyocera TASKalfa 4054ci NW-FAX
-  - Microsoft Print to PDF
-  - Microsoft XPS Document Writer
-  - OneNote (Desktop)
-  - OneNote for Windows 10
-+ {36fc9e60-c465-11cf-8056-444553540000}
-  - Controller host Intel(R) USB 3.0 eXtensible - 1.0 (Microsoft)
-  - Dispositivo USB composito
-  - Hub radice USB (USB 3.0)
-+ {4d36e966-e325-11ce-bfc1-08002be10318}
-  - PC ACPI basato su x64
-+ {4d36e967-e325-11ce-bfc1-08002be10318}
-  - CT1000MX500SSD1
-  - WDC WD10EZEX-08WN4A0
-+ {4d36e968-e325-11ce-bfc1-08002be10318}
-  - NVIDIA GeForce 210  (driver 9.18.13.4174)
-+ {4d36e96a-e325-11ce-bfc1-08002be10318}
-  - Controller AHCI SATA standard
-+ {4d36e96b-e325-11ce-bfc1-08002be10318}
-  - Tastiera HID
-+ {4d36e96c-e325-11ce-bfc1-08002be10318}
-  - NVIDIA High Definition Audio (driver 1.3.30.1)
-  - NVIDIA High Definition Audio (driver 1.3.30.1)
-  - NVIDIA High Definition Audio (driver 1.3.30.1)
-  - NVIDIA High Definition Audio (driver 1.3.30.1)
-  - Realtek High Definition Audio (driver 6.0.1.7841)
-+ {4d36e96e-e325-11ce-bfc1-08002be10318}
-  - Philips 271V8 (27 inch Wide LCD MONITOR 271V8) (driver 1.0.0.0)
-  - Philips 271V8 (27 inch Wide LCD MONITOR 271V8) (driver 1.0.0.0)
-+ {4d36e96f-e325-11ce-bfc1-08002be10318}
-  - Mouse compatibile HID
-+ {4d36e972-e325-11ce-bfc1-08002be10318}
-  - Microsoft Kernel Debug Network Adapter
-  - Realtek PCIe GbE Family Controller
-  - VMware Virtual Ethernet Adapter for VMnet1 (driver 14.0.0.3)
-  - VMware Virtual Ethernet Adapter for VMnet8 (driver 14.0.0.3)
-  - WAN Miniport (IKEv2)
-  - WAN Miniport (IP)
-  - WAN Miniport (IPv6)
-  - WAN Miniport (L2TP)
-  - WAN Miniport (Network Monitor)
-  - WAN Miniport (PPPOE)
-  - WAN Miniport (PPTP)
-  - WAN Miniport (SSTP)
-+ {4d36e978-e325-11ce-bfc1-08002be10318}
-  - Porta di comunicazione (COM1)
-+ {4d36e979-e325-11ce-bfc1-08002be10318}
-  - Microsoft IPP Class Driver
-+ {4d36e97b-e325-11ce-bfc1-08002be10318}
-  - Controller spazi di archiviazione Microsoft
-+ {4d36e97d-e325-11ce-bfc1-08002be10318}
-  - Adattatore PCI standard per CPU host
-  - Aggregatore processore ACPI
-  - Archiviazione volumi
-  - Bridge da PCI a PCI
-  - Bus Redirector dispositivi Desktop remoto
-  - Complesso radice PCI Express
-  - Controller per High Definition Audio
-  - Controller per High Definition Audio
-  - Coprocessore matematico
-  - Dispositivo legacy
-  - Driver BIOS Microsoft System Management
-  - Driver infrastruttura di virtualizzazione Hyper-V Microsoft
-  - Driver rendering base Microsoft
-  - Driver video base Microsoft
-  - Enumeratore bus composito
-  - Enumeratore bus radice UMBus
-  - Enumeratore di dispositivi software Plug and Play
-  - Enumeratore scheda di rete virtuale NDIS
-  - Enumeratore unità virtuale Microsoft
-  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller - A143 (driver 10.1.1.13)
-  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #5 - A114 (driver 10.1.1.13)
-  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #8 - A117 (driver 10.1.1.13)
-  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #9 - A118 (driver 10.1.1.13)
-  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.13)
-  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.13)
-  - Intel(R) Management Engine Interface  (driver 11.0.5.1189)
-  - Interfaccia di gestione Microsoft Windows per ACPI
-  - Interfaccia di gestione Microsoft Windows per ACPI
-  - Orologio di sistema CMOS a tempo reale
-  - Plug-in motore di alimentazione Intel(R)
-  - Programmable Interrupt Controller
-  - Pulsante alimentazione ACPI
-  - Pulsante caratteristica ACPI fissa
-  - Pulsante sospensione ACPI
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Risorse scheda madre
-  - Sistema compatibile ACPI Microsoft
-  - Sistema compatibile UEFI Microsoft
-  - Timer di sistema
-  - Timer eventi alta precisione
-  - Ventola ACPI
-  - Ventola ACPI
-  - Ventola ACPI
-  - Ventola ACPI
-  - Ventola ACPI
-  - VMware VMCI Host Device (driver 9.8.16.0)
-  - Zona termica ACPI
-  - Zona termica ACPI
-+ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
-  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-+ {533c5b84-ec70-11d2-9505-00c04f79deaf}
-  - Copia shadow volume generico
-  - Copia shadow volume generico
-+ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
-  - HP PageWide P55250 [A64E6A]
-  - Microsoft Device Association Root Enumerator
-  - Microsoft Radio Device Enumeration Bus
-  - Microsoft RRAS Root Enumerator
-  - Sintetizzatore Wavetable Microsoft GS
-+ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
-  - Kyocera TASKalfa 4054ci WIA Driver (Network) (driver 2.4.527.0)
-+ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
-  - Controller di sistema compatibile HID
-  - Dispositivo compatibile HID definito da fornitore
-  - Dispositivo controllo consumi compatibile HID
-  - Dispositivo controllo consumi compatibile HID
-  - Dispositivo di input USB
-  - Dispositivo di input USB
-  - Dispositivo di input USB
-+ {9da2b80f-f89f-4a49-a5c2-511b085b9e8a}
-  - Generic IEEE 1667 ACT
-  - Silo di archiviazione TCG Microsoft
-  - Silo probe IEEE 1667 generico
-+ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
-  - PHL 271V8-1 (NVIDIA High Definition Audio)
-  - Realtek Digital Output (Realtek High Definition Audio)
-+ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
-  - Firmware del sistema
-
-cpu registers:
-eax = 17a108b8
-ebx = 00000000
-ecx = 00000000
-edx = 05c43368
-esi = 14adcc9c
-edi = 00000001
-eip = 013c7e27
-esp = 0093f3d8
-ebp = 0093f44c
-
-stack dump:
-0093f3d8  27 7e 3c 01 de fa ed 0e - 01 00 00 00 07 00 00 00  '~<.............
-0093f3e8  ec f3 93 00 27 7e 3c 01 - b8 08 a1 17 00 00 00 00  ....'~<.........
-0093f3f8  9c cc ad 14 01 00 00 00 - 4c f4 93 00 08 f4 93 00  ........L.......
-0093f408  54 f4 93 00 34 a7 a1 00 - 4c f4 93 00 98 f4 93 00  T...4...L.......
-0093f418  94 3b a5 17 2c f4 93 00 - 3f 8f a6 00 40 18 cd 01  .;..,...?...@...
-0093f428  01 00 00 00 00 00 00 00 - 24 8f a6 00 6c f4 93 00  ........$...l...
-0093f438  40 18 cd 01 01 00 00 00 - 98 f4 93 00 94 3b a5 17  @............;..
-0093f448  00 00 00 00 70 f4 93 00 - c6 7e 3c 01 7c f4 93 00  ....p....~<.|...
-0093f458  34 a7 a1 00 70 f4 93 00 - 00 00 00 00 74 86 de 13  4...p.......t...
-0093f468  98 54 9c 14 00 00 00 00 - a8 f4 93 00 12 ea 3c 01  .T............<.
-0093f478  00 00 00 00 e8 f4 93 00 - 34 a7 a1 00 a8 f4 93 00  ........4.......
-0093f488  74 86 de 13 98 54 9c 14 - 00 00 00 00 00 00 00 00  t....T..........
-0093f498  74 86 de 13 11 86 de 13 - d4 ba 98 14 11 86 de 13  t...............
-0093f4a8  cc f4 93 00 96 f0 3c 01 - 01 00 00 00 74 fa 93 00  ......<.....t...
-0093f4b8  74 86 de 13 98 54 9c 14 - dd eb 3c 01 98 54 9c 14  t....T....<..T..
-0093f4c8  74 86 de 13 e0 f4 93 00 - 95 cf 3c 01 0c bb 13 01  t.........<.....
-0093f4d8  00 00 00 00 00 00 00 00 - 10 f5 93 00 41 75 96 01  ............Au..
-0093f4e8  54 f5 93 00 34 a7 a1 00 - 10 f5 93 00 24 c7 95 01  T...4.......$...
-0093f4f8  00 00 00 00 98 54 9c 14 - 6e ac f9 00 f0 4d 9b 14  .....T..n....M..
-0093f508  00 00 00 00 80 6d 7c 14 - 34 f5 93 00 9c 27 f8 00  .....m|.4....'..
-
-disassembling:
-[...]
-013c7e12        jmp     loc_13c7e27
-013c7e14 3254   mov     ecx, esi
-013c7e16        mov     dl, 1
-013c7e18        mov     eax, [$13ab308]
-013c7e1d        call    -$957cfa ($a70128)     ; System.SysUtils.Exception.Create
-013c7e22      > call    -$9ad5cf ($a1a858)     ; System.@RaiseExcept
-013c7e27 3255   xor     eax, eax
-013c7e29        pop     edx
-013c7e2a        pop     ecx
-013c7e2b        pop     ecx
-013c7e2c        mov     fs:[eax], edx
-[...]
-
-date/time          : 2025-04-18, 13:55:43, 496ms
-computer name      : DESKTOP-0R03PDH
-user name          : barto <admin>
-registered owner   : bartolomeo.giorgio@gmail.com
-operating system   : Windows 10 x64 build 19045
-system language    : Italian
-system up time     : 7 days 5 hours
-program up time    : 3 minutes 26 seconds
-processors         : 4x Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
-physical memory    : 1834/8129 MB (free/total)
-free disk space    : (C:) 127,85 GB
-display mode       : 1920x1080, 32 bit
-process id         : $35e4
-allocated memory   : 229,23 MB
-largest free block : 926,80 MB
-executable         : MyBawer.exe
-exec. date/time    : 2025-04-18 13:52
-version            : 1.0.0.0
-compiled with      : Delphi 12
-madExcept version  : 5.1.5
-callstack crc      : $8cf5b1b7, $e51e5075, $e51e5075
+callstack crc      : $8cf5b1b7, $1d95f90a, $1d95f90a
 exception number   : 1
 exception class    : EDatabaseError
-exception message  : Field 'X' must have a value.
+exception message  : Field 'QTA' must have a value.
 
-main thread ($17ec):
-01727e22 +0de MyBawer.exe  Data.DB                    3254  +10 DatabaseError
-01727ec1 +031 MyBawer.exe  Data.DB                    3260   +1 DatabaseErrorFmt
-017412d1 +0c1 MyBawer.exe  Data.DB                   14807   +5 TDataSet.CheckRequiredFields
-0174136c +000 MyBawer.exe  Data.DB                   14862   +0 TDataSet.InternalPost
-01af8e97 +00f MyBawer.exe  Aurelius.Bind.BaseDataset  1650   +1 TBaseAureliusDataset.InternalPost
-01740f89 +029 MyBawer.exe  Data.DB                   14735   +5 TDataSet.CheckOperation
-01740a64 +048 MyBawer.exe  Data.DB                   14586   +7 TDataSet.Post
-01cd6ca3 +19f MyBawer.exe  cxDBNavigator               402  +18 TcxDBNavigatorButtons.DoButtonClick
-01ca1beb +063 MyBawer.exe  cxNavigator                1007   +9 TcxNavigatorButton.DoClick
-01ca4b85 +0b9 MyBawer.exe  cxNavigator                2198  +14 TcxNavigatorViewInfo.MouseUp
-01ca6a6d +049 MyBawer.exe  cxNavigator                3029   +3 TcxCustomNavigator.MouseUp
-00f4a5bc +034 MyBawer.exe  Vcl.Controls               8164   +2 TControl.DoMouseUp
-00f4a64a +082 MyBawer.exe  Vcl.Controls               8177   +9 TControl.WMLButtonUp
-00f49c32 +2be MyBawer.exe  Vcl.Controls               7920  +91 TControl.WndProc
-00f4f2e7 +6a7 MyBawer.exe  Vcl.Controls              11154 +178 TWinControl.WndProc
-0126d4a3 +1f3 MyBawer.exe  cxControls                10897  +25 TcxControl.WndProc
-01ca6f96 +09a MyBawer.exe  cxNavigator                3203   +9 TcxCustomNavigator.WndProc
-012768ad +019 MyBawer.exe  cxControls                15203   +1 TcxWindowProcLinkedObject.DefaultProc
-015e6e6e +0be MyBawer.exe  dxLayoutContainer          6989  +16 TdxLayoutItem.ControlWndProc
-01276c81 +019 MyBawer.exe  cxControls                15313   +1 TcxWindowProcLinkedObjectList.WndProc
-00f4e7ac +02c MyBawer.exe  Vcl.Controls              10823   +3 TWinControl.MainWndProc
-00eb9c28 +014 MyBawer.exe  System.Classes            19091   +8 StdWndProc
-75ba5f4b +00b USER32.dll                                        DispatchMessageW
-0102cad7 +0f3 MyBawer.exe  Vcl.Forms                 13376  +23 TApplication.ProcessMessage
-0102cb1a +00a MyBawer.exe  Vcl.Forms                 13406   +1 TApplication.HandleMessage
-0102ce59 +0d1 MyBawer.exe  Vcl.Forms                 13545  +27 TApplication.Run
-01ff7569 +061 MyBawer.exe  MyBawer                      26   +5 initialization
-7564fcc7 +017 KERNEL32.DLL                                      BaseThreadInitThunk
+main thread ($1a84):
+00da7eba +0de MyBawer.exe  Data.DB                3254  +10 DatabaseError
+00da7f59 +031 MyBawer.exe  Data.DB                3260   +1 DatabaseErrorFmt
+00dc1369 +0c1 MyBawer.exe  Data.DB               14807   +5 TDataSet.CheckRequiredFields
+00dc1404 +000 MyBawer.exe  Data.DB               14862   +0 TDataSet.InternalPost
+00f6c5da +03e MyBawer.exe  FireDAC.Comp.DataSet   5210   +5 TFDDataSet.InternalPost
+00fa0b7d +005 MyBawer.exe  FireDAC.Comp.Client   13536   +1 TFDTable.InternalPost
+00dc1021 +029 MyBawer.exe  Data.DB               14735   +5 TDataSet.CheckOperation
+00dc0afc +048 MyBawer.exe  Data.DB               14586   +7 TDataSet.Post
+00f6c729 +029 MyBawer.exe  FireDAC.Comp.DataSet   5243   +6 TFDDataSet.Post
+013582ac +0d4 MyBawer.exe  cxDBData               4685  +21 TcxDBDataController.CheckBrowseMode
+01355324 +080 MyBawer.exe  cxDBData               3323   +8 TcxDBDataProvider.AddNewRecord
+01353bed +039 MyBawer.exe  cxDBData               2686   +5 TcxDBDataProvider.Insert
+00962710 +024 MyBawer.exe  cxCustomData           5982   +2 TcxCustomDataController.Insert
+01557aa6 +06a MyBawer.exe  cxGridCustomTableView 23971  +10 TcxCustomGridTableController.CreateNewRecord
+01610bc6 +032 MyBawer.exe  cxGridTableView       10308   +3 TcxGridTableController.CreateNewRecord
+01556751 +149 MyBawer.exe  cxGridCustomTableView 23473   +7 TcxCustomGridTableController.KeyDown
+01611edd +1a9 MyBawer.exe  cxGridTableView       10621  +32 TcxGridTableController.KeyDown
+0157a975 +01d MyBawer.exe  cxGridCustomView       3925   +1 TcxCustomGridController.DoKeyDown
+01555d35 +0d5 MyBawer.exe  cxGridCustomTableView 23333  +18 TcxCustomGridTableController.DoKeyDown
+0161160e +026 MyBawer.exe  cxGridTableView       10576   +2 TcxGridTableController.DoKeyDown
+0155082d +059 MyBawer.exe  cxGridCustomTableView 20930   +4 TcxGridEditingController.EditAfterKeyDown
+009df580 +048 MyBawer.exe  cxEdit                10078   +4 TcxCustomEdit.DoAfterKeyDown
+009a826c +160 MyBawer.exe  cxTextEdit             2949  +20 TcxCustomInnerTextEdit.WMKeyDown
+005c9cca +2be MyBawer.exe  Vcl.Controls           7920  +91 TControl.WndProc
+005cf37f +6a7 MyBawer.exe  Vcl.Controls          11154 +178 TWinControl.WndProc
+009a755b +29b MyBawer.exe  cxTextEdit             2606  +61 TcxCustomInnerTextEdit.WndProc
+005ce844 +02c MyBawer.exe  Vcl.Controls          10823   +3 TWinControl.MainWndProc
+00539cc0 +014 MyBawer.exe  System.Classes        19091   +8 StdWndProc
+76285f4b +00b USER32.dll                                    DispatchMessageW
+006acb6f +0f3 MyBawer.exe  Vcl.Forms             13376  +23 TApplication.ProcessMessage
+006acbb2 +00a MyBawer.exe  Vcl.Forms             13406   +1 TApplication.HandleMessage
+006acef1 +0d1 MyBawer.exe  Vcl.Forms             13545  +27 TApplication.Run
+01678569 +061 MyBawer.exe  MyBawer                  26   +5 initialization
+76c1fcc7 +017 KERNEL32.DLL                                  BaseThreadInitThunk
 
-thread $820: <priority:2>
-75b93edf +4f USER32.dll             GetMessageA
-00e281ad +0d MyBawer.exe  madExcept CallThreadProcSafe
-00e28212 +32 MyBawer.exe  madExcept ThreadExceptFrame
-00e28288 +a8 MyBawer.exe  madExcept ThreadExceptFrame
-7564fcc7 +17 KERNEL32.DLL           BaseThreadInitThunk
->> created by main thread ($17ec) at:
-722c34b5 +00 winmm.dll
+thread $3d28:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $d4c:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3fe8:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3de8:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $19c0:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $35fc: <priority:2>
+76273edf +4f USER32.dll             GetMessageA
+004a8245 +0d MyBawer.exe  madExcept CallThreadProcSafe
+004a82aa +32 MyBawer.exe  madExcept ThreadExceptFrame
+004a8320 +a8 MyBawer.exe  madExcept ThreadExceptFrame
+76c1fcc7 +17 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($1a84) at:
+72f834b5 +00 winmm.dll
 
 modules:
-00d70000 MyBawer.exe            1.0.0.0             C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
-0c8e0000 WINSTA.dll             10.0.19041.3636     C:\WINDOWS\SYSTEM32
-0ca70000 gdiplus.dll            10.0.19041.5369     C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.5369_none_d9518ab7e1044dec
-0df40000 windows.storage.dll    10.0.19041.5678     C:\WINDOWS\SYSTEM32
-0e560000 Wldp.dll               10.0.19041.5737     C:\WINDOWS\SYSTEM32
-0e9d0000 profapi.dll            10.0.19041.5553     C:\WINDOWS\SYSTEM32
-0efa0000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
-125e0000 textinputframework.dll 10.0.19041.5198     C:\WINDOWS\SYSTEM32
-126a0000 CoreUIComponents.dll   10.0.19041.3636     C:\WINDOWS\System32
-12920000 CoreMessaging.dll      10.0.19041.5486     C:\WINDOWS\System32
-129c0000 wintypes.dll           10.0.19041.5369     C:\WINDOWS\SYSTEM32
-52480000 c_iscii.dll            10.0.19041.1        C:\WINDOWS\system32
-52490000 c_g18030.dll           10.0.19041.3636     C:\WINDOWS\system32
-5b380000 c_is2022.dll           10.0.19041.3636     C:\WINDOWS\system32
-6b830000 propsys.dll            7.0.19041.5369      C:\WINDOWS\SYSTEM32
-6bf60000 msimg32.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-6c930000 oledlg.dll             10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6cb40000 oleacc.dll             7.2.19041.3636      C:\WINDOWS\SYSTEM32
-6f3c0000 dbgcore.DLL            10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6f3f0000 FaultRep.dll           10.0.19041.4355     C:\WINDOWS\SYSTEM32
-6f5d0000 apphelp.dll            10.0.19041.5678     C:\WINDOWS\SYSTEM32
-70270000 SHFolder.dll           10.0.19041.1        C:\WINDOWS\SYSTEM32
-70280000 wsock32.dll            10.0.19041.1        C:\WINDOWS\SYSTEM32
-70290000 uxtheme.dll            10.0.19041.5247     C:\WINDOWS\system32
-71bb0000 SspiCli.dll            10.0.19041.4239     C:\WINDOWS\SYSTEM32
-71c10000 dwmapi.dll             10.0.19041.5737     C:\WINDOWS\SYSTEM32
-71d30000 WTSAPI32.DLL           10.0.19041.3636     C:\WINDOWS\SYSTEM32
-71d70000 dbghelp.dll            10.0.19041.3996     C:\WINDOWS\SYSTEM32
-71f00000 COMCTL32.dll           6.10.19041.4355     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c28672571c
-722c0000 winmm.dll              10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74b10000 kernel.appcore.dll     10.0.19041.3758     C:\WINDOWS\SYSTEM32
-74d50000 ntmarta.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74dc0000 winspool.drv           10.0.19041.5678     C:\WINDOWS\SYSTEM32
-74e40000 version.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
-74e50000 KERNELBASE.dll         10.0.19041.5737     C:\WINDOWS\System32
-75090000 bcryptPrimitives.dll   10.0.19041.5438     C:\WINDOWS\System32
-750f0000 msvcp_win.dll          10.0.19041.3636     C:\WINDOWS\System32
-755b0000 IMM32.DLL              10.0.19041.5737     C:\WINDOWS\System32
-75600000 GDI32.dll              10.0.19041.5737     C:\WINDOWS\System32
-75630000 KERNEL32.DLL           10.0.19041.5678     C:\WINDOWS\System32
-75880000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
-75900000 ucrtbase.dll           10.0.19041.3636     C:\WINDOWS\System32
-75a20000 comdlg32.dll           10.0.19041.4355     C:\WINDOWS\System32
-75ad0000 bcrypt.dll             10.0.19041.5438     C:\WINDOWS\System32
-75af0000 advapi32.dll           10.0.19041.5737     C:\WINDOWS\System32
-75b70000 USER32.dll             10.0.19041.5737     C:\WINDOWS\System32
-75d10000 combase.dll            10.0.19041.5369     C:\WINDOWS\System32
-75fa0000 RPCRT4.dll             10.0.19041.5438     C:\WINDOWS\System32
-76060000 CFGMGR32.dll           10.0.19041.3996     C:\WINDOWS\System32
-76100000 sechost.dll            10.0.19041.5737     C:\WINDOWS\System32
-76210000 shlwapi.dll            10.0.19041.4355     C:\WINDOWS\System32
-76260000 ole32.dll              10.0.19041.5369     C:\WINDOWS\System32
-763b0000 oleaut32.dll           10.0.19041.3636     C:\WINDOWS\System32
-764c0000 WS2_32.dll             10.0.19041.3636     C:\WINDOWS\System32
-76530000 SHELL32.dll            10.0.19041.5678     C:\WINDOWS\System32
-76c80000 win32u.dll             10.0.19041.5737     C:\WINDOWS\System32
-76ca0000 MSCTF.dll              10.0.19041.5678     C:\WINDOWS\System32
-76d80000 Normaliz.dll           10.0.19041.3636     C:\WINDOWS\System32
-76d90000 msvcrt.dll             7.0.19041.3636      C:\WINDOWS\System32
-76e50000 gdi32full.dll          10.0.19041.5737     C:\WINDOWS\System32
-76f40000 shcore.dll             10.0.19041.5678     C:\WINDOWS\System32
-76ff0000 ntdll.dll              10.0.19041.5737     C:\WINDOWS\SYSTEM32
-79420000 madExcept32.dll        4.0.6.0             C:\Program Files (x86)\madCollection\madExcept\Dlls
+003f0000 MyBawer.exe            1.0.0.0             C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
+0c6f0000 WINSTA.dll             10.0.19041.3636     C:\WINDOWS\SYSTEM32
+0c890000 gdiplus.dll            10.0.19041.5369     C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.5369_none_d9518ab7e1044dec
+0caa0000 textinputframework.dll 10.0.19041.5198     C:\WINDOWS\SYSTEM32
+0e1c0000 profapi.dll            10.0.19041.5553     C:\WINDOWS\SYSTEM32
+0f7d0000 CoreMessaging.dll      10.0.19041.5486     C:\WINDOWS\System32
+10b10000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
+120f0000 CoreUIComponents.dll   10.0.19041.3636     C:\WINDOWS\System32
+12370000 wintypes.dll           10.0.19041.5369     C:\WINDOWS\SYSTEM32
+52f70000 c_iscii.dll            10.0.19041.1        C:\WINDOWS\system32
+52f80000 c_g18030.dll           10.0.19041.3636     C:\WINDOWS\system32
+5be70000 c_is2022.dll           10.0.19041.3636     C:\WINDOWS\system32
+60680000 msimg32.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+62980000 propsys.dll            7.0.19041.5369      C:\WINDOWS\SYSTEM32
+69ed0000 oleacc.dll             7.2.19041.3636      C:\WINDOWS\SYSTEM32
+6ce70000 apphelp.dll            10.0.19041.5678     C:\WINDOWS\SYSTEM32
+6e540000 dbgcore.DLL            10.0.19041.4355     C:\WINDOWS\SYSTEM32
+6e570000 FaultRep.dll           10.0.19041.4355     C:\WINDOWS\SYSTEM32
+6f110000 oledlg.dll             10.0.19041.4355     C:\WINDOWS\SYSTEM32
+70400000 SHFolder.dll           10.0.19041.1        C:\WINDOWS\SYSTEM32
+70410000 wsock32.dll            10.0.19041.1        C:\WINDOWS\SYSTEM32
+70450000 uxtheme.dll            10.0.19041.5247     C:\WINDOWS\system32
+72130000 SspiCli.dll            10.0.19041.4239     C:\WINDOWS\SYSTEM32
+722c0000 dbghelp.dll            10.0.19041.3996     C:\WINDOWS\SYSTEM32
+724d0000 Wldp.dll               10.0.19041.5737     C:\WINDOWS\SYSTEM32
+72500000 windows.storage.dll    10.0.19041.5678     C:\WINDOWS\SYSTEM32
+72b20000 dwmapi.dll             10.0.19041.5737     C:\WINDOWS\SYSTEM32
+72bc0000 WTSAPI32.DLL           10.0.19041.3636     C:\WINDOWS\SYSTEM32
+72bd0000 COMCTL32.dll           6.10.19041.4355     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c28672571c
+72f80000 winmm.dll              10.0.19041.3636     C:\WINDOWS\SYSTEM32
+74db0000 kernel.appcore.dll     10.0.19041.3758     C:\WINDOWS\SYSTEM32
+74f00000 ntmarta.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+74f70000 winspool.drv           10.0.19041.5678     C:\WINDOWS\SYSTEM32
+74ff0000 version.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+75000000 WS2_32.dll             10.0.19041.3636     C:\WINDOWS\System32
+75100000 IMM32.DLL              10.0.19041.5737     C:\WINDOWS\System32
+75130000 msvcrt.dll             7.0.19041.3636      C:\WINDOWS\System32
+751f0000 RPCRT4.dll             10.0.19041.5438     C:\WINDOWS\System32
+752b0000 oleaut32.dll           10.0.19041.3636     C:\WINDOWS\System32
+75350000 GDI32.dll              10.0.19041.5737     C:\WINDOWS\System32
+753a0000 MSCTF.dll              10.0.19041.5678     C:\WINDOWS\System32
+75480000 comdlg32.dll           10.0.19041.4355     C:\WINDOWS\System32
+75530000 ucrtbase.dll           10.0.19041.3636     C:\WINDOWS\System32
+75650000 msvcp_win.dll          10.0.19041.3636     C:\WINDOWS\System32
+75840000 Normaliz.dll           10.0.19041.3636     C:\WINDOWS\System32
+75850000 ole32.dll              10.0.19041.5369     C:\WINDOWS\System32
+75de0000 advapi32.dll           10.0.19041.5737     C:\WINDOWS\System32
+75e60000 sechost.dll            10.0.19041.5737     C:\WINDOWS\System32
+75ee0000 combase.dll            10.0.19041.5369     C:\WINDOWS\System32
+76180000 bcrypt.dll             10.0.19041.5438     C:\WINDOWS\System32
+761a0000 bcryptPrimitives.dll   10.0.19041.5438     C:\WINDOWS\System32
+76200000 shlwapi.dll            10.0.19041.4355     C:\WINDOWS\System32
+76250000 USER32.dll             10.0.19041.5737     C:\WINDOWS\System32
+764f0000 SHELL32.dll            10.0.19041.5678     C:\WINDOWS\System32
+76ad0000 shcore.dll             10.0.19041.5678     C:\WINDOWS\System32
+76b60000 win32u.dll             10.0.19041.5737     C:\WINDOWS\System32
+76b80000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
+76c00000 KERNEL32.DLL           10.0.19041.5678     C:\WINDOWS\System32
+76cf0000 KERNELBASE.dll         10.0.19041.5737     C:\WINDOWS\System32
+76f30000 CFGMGR32.dll           10.0.19041.3996     C:\WINDOWS\System32
+76fd0000 gdi32full.dll          10.0.19041.5737     C:\WINDOWS\System32
+771a0000 ntdll.dll              10.0.19041.5737     C:\WINDOWS\SYSTEM32
+7ae10000 madExcept32.dll        4.0.6.0             C:\Program Files (x86)\madCollection\madExcept\Dlls
 
 processes:
 0000 Idle                                               0 0    0
 0004 System                                             0 0    0
 0064 Registry                                           0 0    0
-01b4 smss.exe                                           0 0    0
-026c csrss.exe                                          0 0    0
-02e4 wininit.exe                                        0 0    0
-03a4 services.exe                                       0 0    0
-03ac lsass.exe                                          0 0    0   normal       C:\Windows\System32
-024c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0264 fontdrvhost.exe                                    0 0    0   normal       C:\Windows\System32
-0238 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0284 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-04a8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-04b8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-04c4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0518 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0540 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-05b0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-05bc svchost.exe                                        0 0    0   normal       C:\Windows\System32
-05c4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-05e8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0634 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0668 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-06a8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-071c nvvsvc.exe                                         0 0    0   normal       C:\Windows\System32
-072c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0738 nvSCPAPISvr.exe                                    0 0    0   normal       C:\Program Files (x86)\NVIDIA Corporation\3D Vision
-076c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-07a0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-07c4 dasHost.exe                                        0 0    0   normal       C:\Windows\System32
+01a8 smss.exe                                           0 0    0
+0264 csrss.exe                                          0 0    0
+02c4 wininit.exe                                        0 0    0
+02cc csrss.exe                                          1 0    0
+032c winlogon.exe                                       1 7    0   high         C:\Windows\System32
+039c services.exe                                       0 0    0
+03a4 lsass.exe                                          0 0    0   normal       C:\Windows\System32
+0244 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0234 fontdrvhost.exe                                    1 0    0   normal       C:\Windows\System32
+0254 fontdrvhost.exe                                    0 0    0   normal       C:\Windows\System32
+0388 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+03f8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0474 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+048c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0494 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+04d4 dwm.exe                                            1 11   2   high         C:\Windows\System32
+04fc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0554 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0564 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+05cc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+05dc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+05f4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0604 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0614 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0638 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0658 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+06ec svchost.exe                                        0 0    0   normal       C:\Windows\System32
+06f4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0760 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0780 nvvsvc.exe                                         0 0    0   normal       C:\Windows\System32
+0798 nvSCPAPISvr.exe                                    0 0    0   normal       C:\Program Files (x86)\NVIDIA Corporation\3D Vision
+07b8 dasHost.exe                                        0 0    0   normal       C:\Windows\System32
+042c PresentationFontCache.exe                          0 0    0   normal       C:\Windows\Microsoft.NET\Framework64\v3.0\WPF
 0630 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0810 PresentationFontCache.exe                          0 0    0   normal       C:\Windows\Microsoft.NET\Framework64\v3.0\WPF
+0844 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+084c nvxdsync.exe                                       1 25   8   normal       C:\Program Files\NVIDIA Corporation\Display
+0854 nvvsvc.exe                                         1 2    5   normal       C:\Windows\System32
 0860 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0878 atiesrxx.exe                                       0 0    0   normal       C:\Windows\System32
+088c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+08bc atiesrxx.exe                                       0 0    0   normal       C:\Windows\System32
+0910 atieclxx.exe                                       1 0    4   normal       C:\Windows\System32
+0934 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+093c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0970 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0978 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+09a8 Memory Compression                                 0 0    0
+0a20 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0a7c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0b28 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0bb8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
 08a4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0918 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0920 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0974 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-097c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0998 Memory Compression                                 0 0    0
-0a08 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0a68 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0b7c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0b94 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-07a8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0c08 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0c20 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0c84 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0d08 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0da0 spoolsv.exe                                        0 0    0   normal       C:\Windows\System32
-0dd4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0e4c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0e58 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0ef8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0fc0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-08b0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0c40 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0e54 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1070 ibguard.exe                                        0 0    0   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
-1080 OneApp.IGCC.WinService.exe                         0 0    0   normal       C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad
-1094 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-10c0 IpOverUsbSvc.exe                                   0 0    0   normal       C:\Program Files (x86)\Common Files\Microsoft Shared\Phone Tools\CoreCon\11.0\bin
-10e0 KDService.exe                                      0 0    0   normal       C:\Program Files\KDService\bin
+09a0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0680 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0c24 svchost.exe                                        0 0    0
+0c2c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0c34 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0d18 spoolsv.exe                                        0 0    0   normal       C:\Windows\System32
+0d58 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0dd8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0e34 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0ea4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0f7c armsvc.exe                                         0 0    0   normal       C:\Program Files (x86)\Common Files\Adobe\ARM\1.0
+0f8c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0fb4 OfficeClickToRun.exe                               0 0    0   normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+0fdc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0ffc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0bc4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1010 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1040 ibguard.exe                                        0 0    0   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
+1070 OneApp.IGCC.WinService.exe                         0 0    0   normal       C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad
+1080 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+109c IpOverUsbSvc.exe                                   0 0    0   normal       C:\Program Files (x86)\Common Files\Microsoft Shared\Phone Tools\CoreCon\11.0\bin
+10d0 KDService.exe                                      0 0    0   normal       C:\Program Files\KDService\bin
 1104 MpDefenderCoreService.exe                          0 0    0
-1150 mysqld.exe                                         0 0    0   normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
-1198 pg_ctl.exe                                         0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-11d0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-11e4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1208 SqlBak.Service.exe                                 0 0    0   normal       C:\Program Files (x86)\SQLBackupAndFTP
-1240 sqlwriter.exe                                      0 0    0   normal       C:\Program Files\Microsoft SQL Server\90\Shared
-124c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1258 SupremoService.exe                                 0 0    0   normal       C:\Program Files (x86)\Supremo
-1264 VeeamDeploymentSvc.exe                             0 0    0   normal       C:\Windows\Veeam\Backup
-1270 Veeam.Backup.Agent.ConfigurationService.exe        0 0    0   normal       C:\Program Files\Veeam\Veeam Distribution Service
-1288 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-12b8 VeeamFilesysVssSvc.exe                             0 0    0   normal       C:\Program Files\Veeam\Backup File System VSS Integration
-12c4 VeeamNFSSvc.exe                                    0 0    0   normal       C:\Program Files (x86)\Veeam\vPowerNFS
-12f8 vmware-authd.exe                                   0 0    0   normal       C:\Program Files (x86)\VMware\VMware Player
-1300 vmnetdhcp.exe                                      0 0    0   normal       C:\Windows\SysWOW64
-1308 VeeamTransportSvc.exe                              0 0    0   normal       C:\Program Files (x86)\Veeam\Backup Transport
-1320 vmware-usbarbitrator64.exe                         0 0    0   normal       C:\Program Files (x86)\Common Files\VMware\USB
-1384 vmnat.exe                                          0 0    0   normal       C:\Windows\SysWOW64
-13d4 MsMpEng.exe                                        0 0    0
-13f8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1020 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1564 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1570 mysqld.exe                                         0 0    0   normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
-15f8 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-1770 Veeam.Guest.Interaction.Proxy.exe                  0 0    0   normal       C:\Program Files (x86)\Veeam\Backup Transport\GuestInteraction
-1788 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-18f4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1910 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1938 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1950 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-19d0 dllhost.exe                                        0 0    0   normal       C:\Windows\System32
-1b0c postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1b18 WmiPrvSE.exe                                       0 0    0   normal       C:\Windows\System32\wbem
-1b28 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1b30 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1b98 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1ba0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-1ba8 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-0ff8 AggregatorHost.exe                                 0 0    0   normal       C:\Windows\System32
-1d5c ibserver.exe                                       0 0    0   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
-1ecc NisSrv.exe                                         0 0    0
-0e30 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1e10 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-1e30 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-14b0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-219c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-2860 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-2bb0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-2514 SecurityHealthService.exe                          0 0    0
-2b00 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-17f0 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0584 sqlservr.exe                                       0 0    0   normal       C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
-0614 sqlceip.exe                                        0 0    0   below normal C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
-1798 Veeam.CloudBackup.PlatformService.exe              0 0    0   normal       C:\Program Files\Veeam\Plugins\AWS\Service
-24c8 Veeam.Azure.PlatformSvc.exe                        0 0    0   normal       C:\Program Files\Veeam\Plugins\Microsoft Azure\Service
-203c Veeam.Backup.RestAPIService.exe                    0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-10cc Veeam.Backup.Service.exe                           0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2790 Veeam.Backup.UIServer.exe                          0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-26d4 Veeam.Backup.BrokerService.exe                     0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-0d9c Veeam.Backup.ExternalInfrastructure.DbProvider.exe 0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2b98 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-2d64 Veeam.Backup.WmiServer.exe                         0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-2d78 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-3018 Veeam.Backup.CatalogDataService.exe                0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup Catalog
-32a4 Veeam.Backup.CloudService.exe                      0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-33f0 Veeam.StandBy.Service.exe                          0 0    0   normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Explorers Recovery Service
-2bf8 Veeam.GCP.PlatformService.WebService.exe           0 0    0   normal       C:\Program Files\Veeam\Plugins\GCP\Service
-348c Veeam.Backup.PlatformServices.Kasten.exe           0 0    0   normal       C:\Program Files\Veeam\Plugins\Kasten K10\Service
-3638 Veeam.Backup.MountService.exe                      0 0    0   normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Mount Service
-373c svchost.exe                                        0 0    0
-37a0 Veeam.Backup.Cdp.Service.exe                       0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-23d8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-237c OfficeClickToRun.exe                               0 0    0   normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
-36dc SearchIndexer.exe                                  0 0    0   normal       C:\Windows\System32
-18b8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0dec MoUsoCoreWorker.exe                                0 0    0   normal       C:\Windows\System32
-1e00 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-3cb4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-3864 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-0b78 svchost.exe                                        0 0    0
-3af8 Veeam.Backup.Manager.exe                           0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-0c8c conhost.exe                                        0 0    0   normal       C:\Windows\System32
-2bf4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-22b8 armsvc.exe                                         0 0    0   normal       C:\Program Files (x86)\Common Files\Adobe\ARM\1.0
-2d08 csrss.exe                                          5 0    0
-42e8 winlogon.exe                                       5 5    0   high         C:\Windows\System32
-1580 fontdrvhost.exe                                    5 0    0   normal       C:\Windows\System32
-181c dwm.exe                                            5 16   3   high         C:\Windows\System32
-3d78 atieclxx.exe                                       5 0    4   normal       C:\Windows\System32
-43c0 nvxdsync.exe                                       5 25   8   normal       C:\Program Files\NVIDIA Corporation\Display
-36a4 nvvsvc.exe                                         5 2    5   normal       C:\Windows\System32
-14ec Supremo.exe                                        5 52   64  normal       C:\Program Files (x86)\Supremo
-1848 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-3f38 Veeam.Backup.Satellite.exe                         0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
-1314 conhost.exe                                        0 0    0   normal       C:\Windows\System32
-4070 sihost.exe                                         5 0    12  normal       C:\Windows\System32
-0874 svchost.exe                                        5 0    1   normal       C:\Windows\System32
-304c svchost.exe                                        5 0    4   normal       C:\Windows\System32
-4524 taskhostw.exe                                      5 10   6   normal       C:\Windows\System32
-3138 explorer.exe                                       5 648  456 normal       C:\Windows
-1050 ctfmon.exe                                         5 2    22  high         C:\Windows\System32
-29d8 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-17e0 SupremoHelper.exe                                  5 58   35  normal       C:\Windows\Temp\SupremoRemoteDesktop
-08f0 svchost.exe                                        5 0    8   normal       C:\Windows\System32
-26b4 dllhost.exe                                        5 0    3   normal       C:\Windows\System32
-47ac StartMenuExperienceHost.exe                        5 0    12  normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
-0844 svchost.exe                                        5 0    1   normal       C:\Windows\System32
-2de8 RuntimeBroker.exe                                  5 8    1   normal       C:\Windows\System32
-2b54 UserOOBEBroker.exe                                 5 0    1   normal       C:\Windows\System32\oobe
-0e18 SearchApp.exe                                      5 25   89  normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
-225c RuntimeBroker.exe                                  5 47   23  normal       C:\Windows\System32
-2480 ShellExperienceHost.exe                            5 0    24  normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
-221c nvtray.exe                                         5 76   4   normal       C:\Program Files\NVIDIA Corporation\Display
-31cc RuntimeBroker.exe                                  5 40   1   normal       C:\Windows\System32
-19f0 NvBackend.exe                                      5 0    1   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
-3b4c MicrosoftSecurityApp.exe                           5 27   24  normal       C:\Program Files\WindowsApps\Microsoft.6365217CE6EB4_102.2504.11001.0_x64__8wekyb3d8bbwe\MicrosoftSecurityApp
-0f64 RuntimeBroker.exe                                  5 0    1   normal       C:\Windows\System32
-2cbc thunderbird.exe                                    5 57   73  normal       C:\Program Files\Mozilla Thunderbird
-2724 thunderbird.exe                                    5 1    15  normal       C:\Program Files\Mozilla Thunderbird
-3144 thunderbird.exe                                    5 0    0   normal       C:\Program Files\Mozilla Thunderbird
-1f7c RuntimeBroker.exe                                  5 0    3   normal       C:\Windows\System32
-1480 SystemSettings.exe                                 5 11   32  normal       C:\Windows\ImmersiveControlPanel
-2ec8 ApplicationFrameHost.exe                           5 36   17  normal       C:\Windows\System32
-413c TextInputHost.exe                                  5 0    23  normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
-3e98 dllhost.exe                                        5 0    3   normal       C:\Windows\System32
-08d8 SearchApp.exe                                      5 0    20  normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
-3920 msedgewebview2.exe                                 5 22   37  normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-0694 msedgewebview2.exe                                 5 2    3   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-25e4 msedgewebview2.exe                                 5 5    13  above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-165c msedgewebview2.exe                                 5 0    5   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-3be0 msedgewebview2.exe                                 5 0    0   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-293c msedgewebview2.exe                                 5 0    0   idle         C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-447c TMSDashboard.exe                                   5 25   31  normal       C:\Users\barto\Desktop\TMS programs
-3d20 msedgewebview2.exe                                 5 27   37  normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-2d40 msedgewebview2.exe                                 5 2    3   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-14e8 msedgewebview2.exe                                 5 8    12  above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-2604 msedgewebview2.exe                                 5 0    5   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-3b70 msedgewebview2.exe                                 5 0    0   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-21b0 msedgewebview2.exe                                 5 0    0   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.73
-1790 chrome.exe                                         5 93   81  normal       C:\Program Files\Google\Chrome\Application
-3fa8 chrome.exe                                         5 2    4   normal       C:\Program Files\Google\Chrome\Application
-2b64 chrome.exe                                         5 13   12  above normal C:\Program Files\Google\Chrome\Application
-1650 chrome.exe                                         5 0    3   normal       C:\Program Files\Google\Chrome\Application
-0ca4 chrome.exe                                         5 0    0   normal       C:\Program Files\Google\Chrome\Application
-11b4 chrome.exe                                         5 0    0   normal       C:\Program Files\Google\Chrome\Application
-1a78 chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-126c chrome.exe                                         5 0    0   normal       C:\Program Files\Google\Chrome\Application
-3da8 chrome.exe                                         5 0    1   normal       C:\Program Files\Google\Chrome\Application
-0f38 AdobeCollabSync.exe                                5 12   7   below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
-0d5c AdobeCollabSync.exe                                5 0    2   below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
-1f00 prevhost.exe                                       5 2    5   normal       C:\Windows\System32
-1f38 EXCEL.EXE                                          5 299  160 normal       C:\Program Files\Microsoft Office\root\Office16
-3d44 EXCEL.EXE                                          5 386  176 normal       C:\Program Files\Microsoft Office\root\Office16
-4580 splwow64.exe                                       5 0    3   normal       C:\Windows
-350c msedge.exe                                         5 2    28  normal       C:\Program Files (x86)\Microsoft\Edge\Application
-0b74 msedge.exe                                         5 2    3   normal       C:\Program Files (x86)\Microsoft\Edge\Application
-3cac msedge.exe                                         5 0    5   normal       C:\Program Files (x86)\Microsoft\Edge\Application
-33fc msedge.exe                                         5 1    4   above normal C:\Program Files (x86)\Microsoft\Edge\Application
-3a4c msedge.exe                                         5 0    0   normal       C:\Program Files (x86)\Microsoft\Edge\Application
-1c20 chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-1024 chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-2cf0 chrome.exe                                         5 0    1   normal       C:\Program Files\Google\Chrome\Application
-4124 chrome.exe                                         5 0    1   normal       C:\Program Files\Google\Chrome\Application
-3ec0 SQLiteStudio.exe                                   5 54   35  normal       C:\Program Files\SQLiteStudio
-1d9c svchost.exe                                        0 0    0   normal       C:\Windows\System32
-101c chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-1f04 audiodg.exe                                        0 0    0   normal       C:\Windows\System32
-15b0 smartscreen.exe                                    5 0    3   normal       C:\Windows\System32
-0b08 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-3174 svchost.exe                                        0 0    0
-2644 chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-2348 svchost.exe                                        0 0    0   normal       C:\Windows\System32
-38f4 bds.exe                                            5 2896 933 normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-04d8 DelphiLSP.exe                                      5 0    5   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-4208 conhost.exe                                        5 10   9   normal       C:\Windows\System32
-2c28 DelphiLSP.exe                                      5 0    1   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-0744 DelphiLSP.exe                                      5 0    1   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
-35e4 MyBawer.exe                                        5 360  155 normal       C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
-1cb4 chrome.exe                                         5 0    0   idle         C:\Program Files\Google\Chrome\Application
-2b14 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-02ec postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-3ef0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-472c postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-2d4c postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-0df0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-39e4 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-4194 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-154c postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
-2104 backgroundTaskHost.exe                             5 0    5   normal       C:\Windows\System32
-43b8 RuntimeBroker.exe                                  5 0    2   normal       C:\Windows\System32
-3c50 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+112c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1134 pg_ctl.exe                                         0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+1140 SqlBak.Service.exe                                 0 0    0   normal       C:\Program Files (x86)\SQLBackupAndFTP
+115c sqlwriter.exe                                      0 0    0   normal       C:\Program Files\Microsoft SQL Server\90\Shared
+1164 mysqld.exe                                         0 0    0   normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
+1184 SupremoService.exe                                 0 0    0   normal       C:\Program Files (x86)\Supremo
+11bc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1214 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+122c VeeamDeploymentSvc.exe                             0 0    0   normal       C:\Windows\Veeam\Backup
+1254 Veeam.Backup.Agent.ConfigurationService.exe        0 0    0   normal       C:\Program Files\Veeam\Veeam Distribution Service
+1260 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1268 VeeamFilesysVssSvc.exe                             0 0    0   normal       C:\Program Files\Veeam\Backup File System VSS Integration
+1284 VeeamNFSSvc.exe                                    0 0    0   normal       C:\Program Files (x86)\Veeam\vPowerNFS
+128c VeeamTransportSvc.exe                              0 0    0   normal       C:\Program Files (x86)\Veeam\Backup Transport
+12c8 vmware-authd.exe                                   0 0    0   normal       C:\Program Files (x86)\VMware\VMware Player
+132c vmnetdhcp.exe                                      0 0    0   normal       C:\Windows\SysWOW64
+1348 vmnat.exe                                          0 0    0   normal       C:\Windows\SysWOW64
+1354 MsMpEng.exe                                        0 0    0
+135c vmware-usbarbitrator64.exe                         0 0    0   normal       C:\Program Files (x86)\Common Files\VMware\USB
+1378 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1478 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+148c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+15ec mysqld.exe                                         0 0    0   normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
+1614 Supremo.exe                                        1 52   63  normal       C:\Program Files (x86)\Supremo
+1620 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+16b4 Veeam.Guest.Interaction.Proxy.exe                  0 0    0   normal       C:\Program Files (x86)\Veeam\Backup Transport\GuestInteraction
+16c4 SearchIndexer.exe                                  0 0    0   normal       C:\Windows\System32
+16f0 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+1674 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+1658 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+18b4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+18dc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+19c8 dllhost.exe                                        0 0    0   normal       C:\Windows\System32
+1a44 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+1a74 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+1a7c postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+100c ibserver.exe                                       0 0    0   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
+1cf8 AggregatorHost.exe                                 0 0    0   normal       C:\Windows\System32
+1eb8 WmiPrvSE.exe                                       0 0    0   normal       C:\Windows\System32\wbem
+1e14 sihost.exe                                         1 0    7   normal       C:\Windows\System32
+1a24 svchost.exe                                        1 0    1   normal       C:\Windows\System32
+1d3c svchost.exe                                        1 0    4   normal       C:\Windows\System32
+1ec0 taskhostw.exe                                      1 10   6   normal       C:\Windows\System32
+107c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+0a4c svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1220 ctfmon.exe                                         1 2    23  high         C:\Windows\System32
+2014 explorer.exe                                       1 267  272 normal       C:\Windows
+20d0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+20d8 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+20e0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+2154 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+2344 svchost.exe                                        1 0    7   normal       C:\Windows\System32
+23a4 SupremoHelper.exe                                  1 58   35  normal       C:\Windows\Temp\SupremoRemoteDesktop
+21d0 StartMenuExperienceHost.exe                        1 0    12  normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+2244 RuntimeBroker.exe                                  1 8    1   normal       C:\Windows\System32
+1ea4 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+2294 dllhost.exe                                        1 0    3   normal       C:\Windows\System32
+241c svchost.exe                                        1 0    1   normal       C:\Windows\System32
+2494 SearchApp.exe                                      1 25   88  normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+2520 RuntimeBroker.exe                                  1 44   8   normal       C:\Windows\System32
+2734 NisSrv.exe                                         0 0    0
+27cc UserOOBEBroker.exe                                 1 0    1   normal       C:\Windows\System32\oobe
+2284 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+28c4 RuntimeBroker.exe                                  1 40   5   normal       C:\Windows\System32
+2984 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+29c8 nvtray.exe                                         1 76   4   normal       C:\Program Files\NVIDIA Corporation\Display
+2b18 NvBackend.exe                                      1 0    1   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+2b84 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+29dc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+291c MicrosoftSecurityApp.exe                           1 27   25  normal       C:\Program Files\WindowsApps\Microsoft.6365217CE6EB4_102.2504.16003.0_x64__8wekyb3d8bbwe\MicrosoftSecurityApp
+2a24 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+2068 RuntimeBroker.exe                                  1 0    1   normal       C:\Windows\System32
+177c SecurityHealthService.exe                          0 0    0
+28ac TextInputHost.exe                                  1 0    23  normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+10bc dllhost.exe                                        1 0    3   normal       C:\Windows\System32
+24a8 bds.exe                                            1 2948 958 normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+02e4 thunderbird.exe                                    1 60   70  normal       C:\Program Files\Mozilla Thunderbird
+2704 sqlservr.exe                                       0 0    0   normal       C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
+2440 thunderbird.exe                                    1 1    15  normal       C:\Program Files\Mozilla Thunderbird
+0bf8 thunderbird.exe                                    1 0    0   normal       C:\Program Files\Mozilla Thunderbird
+1d64 sqlceip.exe                                        0 0    0   below normal C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
+0548 Veeam.CloudBackup.PlatformService.exe              0 0    0   normal       C:\Program Files\Veeam\Plugins\AWS\Service
+0c1c Veeam.Azure.PlatformSvc.exe                        0 0    0   normal       C:\Program Files\Veeam\Plugins\Microsoft Azure\Service
+10c8 SearchApp.exe                                      1 0    19  normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+265c msedgewebview2.exe                                 1 22   38  normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+0a00 msedgewebview2.exe                                 1 0    3   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+092c msedgewebview2.exe                                 1 5    12  above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+09e4 msedgewebview2.exe                                 1 0    5   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+21dc msedgewebview2.exe                                 1 0    0   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+186c msedgewebview2.exe                                 1 0    0   idle         C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+16a4 Veeam.Backup.RestAPIService.exe                    0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+0f6c chrome.exe                                         1 92   77  normal       C:\Program Files\Google\Chrome\Application
+0ad4 chrome.exe                                         1 0    4   normal       C:\Program Files\Google\Chrome\Application
+17d4 chrome.exe                                         1 8    12  above normal C:\Program Files\Google\Chrome\Application
+1450 chrome.exe                                         1 0    3   normal       C:\Program Files\Google\Chrome\Application
+205c chrome.exe                                         1 0    0   normal       C:\Program Files\Google\Chrome\Application
+124c Veeam.Backup.Service.exe                           0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+217c chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+2560 chrome.exe                                         1 0    0   normal       C:\Program Files\Google\Chrome\Application
+21c0 Veeam.Backup.BrokerService.exe                     0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2810 Veeam.Backup.UIServer.exe                          0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+1654 Veeam.Backup.ExternalInfrastructure.DbProvider.exe 0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2a70 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+25a4 Veeam.Backup.Manager.exe                           0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2c74 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+0c44 Veeam.Backup.WmiServer.exe                         0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2f68 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+32a4 Veeam.Backup.Satellite.exe                         0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+32b0 conhost.exe                                        0 0    0   normal       C:\Windows\System32
+08a0 Veeam.Backup.CatalogDataService.exe                0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup Catalog
+035c Veeam.Backup.CloudService.exe                      0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+39e0 Veeam.StandBy.Service.exe                          0 0    0   normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Explorers Recovery Service
+3abc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+3afc Veeam.GCP.PlatformService.WebService.exe           0 0    0   normal       C:\Program Files\Veeam\Plugins\GCP\Service
+31e4 Veeam.Backup.PlatformServices.Kasten.exe           0 0    0   normal       C:\Program Files\Veeam\Plugins\Kasten K10\Service
+175c Veeam.Backup.MountService.exe                      0 0    0   normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Mount Service
+3020 svchost.exe                                        0 0    0
+2ca0 Veeam.Backup.Cdp.Service.exe                       0 0    0   normal       C:\Program Files\Veeam\Backup and Replication\Backup
+3b84 chrome.exe                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+0a38 chrome.exe                                         1 0    1   normal       C:\Program Files\Google\Chrome\Application
+2fc4 DelphiLSP.exe                                      1 0    6   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+3138 conhost.exe                                        1 10   9   normal       C:\Windows\System32
+1ae0 DelphiLSP.exe                                      1 0    3   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+0f2c DelphiLSP.exe                                      1 0    1   normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+2f50 AdobeCollabSync.exe                                1 10   7   below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
+0eb0 AdobeCollabSync.exe                                1 0    2   below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
+3660 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+2c38 chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+036c chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+348c chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+3460 chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+12ec chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+3308 chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+3f58 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+1754 SQLiteStudio.exe                                   1 91   36  normal       C:\Program Files\SQLiteStudio
+3a4c ShellExperienceHost.exe                            1 0    22  normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+3ea4 RuntimeBroker.exe                                  1 0    3   normal       C:\Windows\System32
+2784 EXCEL.EXE                                          1 334  167 normal       C:\Program Files\Microsoft Office\root\Office16
+2730 svchost.exe                                        0 0    0   normal       C:\Windows\System32
+32cc splwow64.exe                                       1 0    2   normal       C:\Windows
+2e84 chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+3ccc PhoneExperienceHost.exe                            1 0    14  normal       C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25032.76.0_x64__8wekyb3d8bbwe
+3dcc svchost.exe                                        0 0    0   normal       C:\Windows\System32
+3388 audiodg.exe                                        0 0    0   normal       C:\Windows\System32
+114c MyBawer.exe                                        1 343  130 normal       C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
+0a04 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+1c20 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+0aa0 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+368c chrome.exe                                         1 0    0   idle         C:\Program Files\Google\Chrome\Application
+01bc postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+2134 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
+3e44 postgres.exe                                       0 0    0   normal       C:\Program Files\PostgreSQL\15\bin
 
 hardware:
 + {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
@@ -1114,6 +500,705 @@ hardware:
   - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
 + {533c5b84-ec70-11d2-9505-00c04f79deaf}
   - Copia shadow volume generico
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - HP PageWide P55250 [A64E6A]
+  - Microsoft Device Association Root Enumerator
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - Sintetizzatore Wavetable Microsoft GS
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - Kyocera TASKalfa 4054ci WIA Driver (Network) (driver 2.4.527.0)
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Controller di sistema compatibile HID
+  - Dispositivo compatibile HID definito da fornitore
+  - Dispositivo controllo consumi compatibile HID
+  - Dispositivo controllo consumi compatibile HID
+  - Dispositivo di input USB
+  - Dispositivo di input USB
+  - Dispositivo di input USB
++ {9da2b80f-f89f-4a49-a5c2-511b085b9e8a}
+  - Generic IEEE 1667 ACT
+  - Silo di archiviazione TCG Microsoft
+  - Silo probe IEEE 1667 generico
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - PHL 271V8-1 (NVIDIA High Definition Audio)
+  - Realtek Digital Output (Realtek High Definition Audio)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - Firmware del sistema
+
+cpu registers:
+eax = 12070460
+ebx = 00000000
+ecx = 00000000
+edx = 056f2b90
+esi = 141af444
+edi = 00000000
+eip = 00da7ebf
+esp = 003cf4e8
+ebp = 003cf55c
+
+stack dump:
+003cf4e8  bf 7e da 00 de fa ed 0e - 01 00 00 00 07 00 00 00  .~..............
+003cf4f8  fc f4 3c 00 bf 7e da 00 - 60 04 07 12 00 00 00 00  ..<..~..`.......
+003cf508  44 f4 1a 14 00 00 00 00 - 5c f5 3c 00 18 f5 3c 00  D.......\.<...<.
+003cf518  64 f5 3c 00 34 a7 3f 00 - 5c f5 3c 00 ac f5 3c 00  d.<.4.?.\.<...<.
+003cf528  2c d6 1a 14 3c f5 3c 00 - 47 8f 44 00 40 28 6b 01  ,...<.<.G.D.@(k.
+003cf538  00 00 00 00 00 00 00 00 - 2c 8f 44 00 7c f5 3c 00  ........,.D.|.<.
+003cf548  40 28 6b 01 00 00 00 00 - ac f5 3c 00 2c d6 1a 14  @(k.......<.,...
+003cf558  00 00 00 00 80 f5 3c 00 - 5e 7f da 00 8c f5 3c 00  ......<.^.....<.
+003cf568  34 a7 3f 00 80 f5 3c 00 - 04 00 00 00 50 0f 77 0c  4.?...<.....P.w.
+003cf578  06 00 00 00 00 00 00 00 - b4 f5 3c 00 6e 13 dc 00  ..........<.n...
+003cf588  00 00 00 00 c0 f5 3c 00 - 34 a7 3f 00 b4 f5 3c 00  ......<.4.?...<.
+003cf598  24 62 65 01 f0 67 f8 00 - 50 0f 77 0c 00 00 00 00  $be..g..P.w.....
+003cf5a8  00 00 00 00 34 93 5d 0e - 11 0f 77 0c d4 f5 3c 00  ....4.]...w...<.
+003cf5b8  09 14 dc 00 df c5 f6 00 - e4 f5 3c 00 34 a7 3f 00  ..........<.4.?.
+003cf5c8  d4 f5 3c 00 50 0f 77 0c - 50 0f 77 0c 04 f6 3c 00  ..<.P.w.P.w...<.
+003cf5d8  82 0b fa 00 50 0f 77 0c - 24 10 dc 00 34 f6 3c 00  ....P.w.$...4.<.
+003cf5e8  13 a9 3f 00 04 f6 3c 00 - 24 62 65 01 f0 67 f8 00  ..?...<.$be..g..
+003cf5f8  50 0f 77 0c 00 00 00 00 - 50 0f 77 0c 58 f6 3c 00  P.w.....P.w.X.<.
+003cf608  01 0b dc 00 00 00 00 00 - 00 00 00 00 78 0b fa 00  ............x...
+003cf618  50 0f 77 0c c0 ef f4 11 - 50 0f 77 0c 2e c7 f6 00  P.w.....P.w.....
+
+disassembling:
+[...]
+00da7eaa        jmp     loc_da7ebf
+00da7eac 3254   mov     ecx, esi
+00da7eae        mov     dl, 1
+00da7eb0        mov     eax, [$d8b3a0]
+00da7eb5        call    -$957d8a ($450130)     ; System.SysUtils.Exception.Create
+00da7eba      > call    -$9ad667 ($3fa858)     ; System.@RaiseExcept
+00da7ebf 3255   xor     eax, eax
+00da7ec1        pop     edx
+00da7ec2        pop     ecx
+00da7ec3        pop     ecx
+00da7ec4        mov     fs:[eax], edx
+[...]
+
+date/time          : 2025-04-30, 12:21:04, 370ms
+computer name      : DESKTOP-0R03PDH
+user name          : barto <admin>
+registered owner   : bartolomeo.giorgio@gmail.com
+operating system   : Windows 10 x64 build 19045
+system language    : Italian
+system up time     : 3 hours 39 minutes
+program up time    : 1 minute 13 seconds
+processors         : 4x Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+physical memory    : 2325/8129 MB (free/total)
+free disk space    : (C:) 132,93 GB
+display mode       : 1920x1080, 32 bit
+process id         : $3104
+allocated memory   : 260,80 MB
+largest free block : 918,61 MB
+executable         : MyBawer.exe
+exec. date/time    : 2025-04-30 12:19
+version            : 1.0.0.0
+compiled with      : Delphi 12
+madExcept version  : 5.1.5
+callstack crc      : $31af83ce, $11c69386, $c077bf74
+count              : 3
+exception number   : 3
+exception class    : ESQLiteNativeException
+exception message  : [FireDAC][Phys][SQLite] ERROR: database is locked.
+
+main thread ($184):
+00cdffde +046 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  1943   +5 TSQLiteHandle.Check
+00ce67ff +127 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  4688  +30 TSQLiteStatement.ExecuteBase
+00cf82fe +0ea MyBawer.exe  FireDAC.Phys.SQLite         2863  +25 TFDPhysSQLiteCommand.InternalOpen
+00cc19a0 +174 MyBawer.exe  FireDAC.Phys                7381  +37 TFDPhysCommand.OpenBase
+00cc0ee3 +003 MyBawer.exe  FireDAC.Phys                7208   +0 TFDPhysCommandAsyncOpen.Execute
+00c928f0 +054 MyBawer.exe  FireDAC.Stan.Async           173   +6 TFDStanAsyncExecutor.ExecuteOperation
+00c92c36 +06e MyBawer.exe  FireDAC.Stan.Async           268  +12 TFDStanAsyncExecutor.Run
+00cbf22c +0d0 MyBawer.exe  FireDAC.Phys                6703  +13 TFDPhysCommand.ExecuteTask
+00cbf27d +121 MyBawer.exe  FireDAC.Phys                6711  +21 TFDPhysCommand.ExecuteTask
+00cc1bfe +052 MyBawer.exe  FireDAC.Phys                7449   +2 TFDPhysCommand.Open
+00e5ebf1 +2ed MyBawer.exe  FireDAC.DApt                1766  +59 TFDDAptTableAdapter.ProcessRequest
+00e5ffcb +71b MyBawer.exe  FireDAC.DApt                2156 +163 TFDDAptTableAdapter.ProcessUpdate
+00e60632 +04a MyBawer.exe  FireDAC.DApt                2315  +15 TFDDAptTableAdapter.Update
+00df5955 +069 MyBawer.exe  FireDAC.Comp.Client         8054   +7 TFDCustomTableAdapter.Update
+00df9c8d +105 MyBawer.exe  FireDAC.Comp.Client        10292  +17 TFDAdaptedDataSet.DoProcessUpdateRequest
+00dcccd2 +0ba MyBawer.exe  FireDAC.Comp.DataSet        5402  +15 TFDDataSet.InternalAddRecord
+00e00b51 +005 MyBawer.exe  FireDAC.Comp.Client        13527   +1 TFDTable.InternalAddRecord
+00dcc6c1 +125 MyBawer.exe  FireDAC.Comp.DataSet        5228  +23 TFDDataSet.InternalPost
+00e00b7d +005 MyBawer.exe  FireDAC.Comp.Client        13536   +1 TFDTable.InternalPost
+00c21021 +029 MyBawer.exe  Data.DB                    14735   +5 TDataSet.CheckOperation
+00c20afc +048 MyBawer.exe  Data.DB                    14586   +7 TDataSet.Post
+00dcc729 +029 MyBawer.exe  FireDAC.Comp.DataSet        5243   +6 TFDDataSet.Post
+00c219e9 +041 MyBawer.exe  Data.DB                    15132   +7 TDataSet.CheckBrowseMode
+011b3f16 +0ae MyBawer.exe  cxDBData                    2712  +15 TcxDBDataProvider.Post
+007c276d +051 MyBawer.exe  cxCustomData                5993   +5 TcxCustomDataController.Post
+014b2129 +02d MyBawer.exe  cxGridDBDataDefinitions      614   +3 TcxGridDBDataController.Post
+013b7bd9 +10d MyBawer.exe  cxGridCustomTableView      23928  +22 TcxCustomGridTableController.CheckEditing
+013b8220 +018 MyBawer.exe  cxGridCustomTableView      24114   +1 TcxCustomGridTableController.FocusNextRecord
+01471d78 +098 MyBawer.exe  cxGridTableView            10654   +7 TcxGridTableController.KeyDown$ActRec.$0$Body
+013b2204 +03c MyBawer.exe  cxGridCustomTableView      21629   +3 TcxCustomGridTableController.AllowRecordScrollAnimationOnMakeVisible
+01472298 +310 MyBawer.exe  cxGridTableView            10645  +56 TcxGridTableController.KeyDown
+013dabc9 +01d MyBawer.exe  cxGridCustomView            3925   +1 TcxCustomGridController.DoKeyDown
+013b5f89 +0d5 MyBawer.exe  cxGridCustomTableView      23333  +18 TcxCustomGridTableController.DoKeyDown
+01471862 +026 MyBawer.exe  cxGridTableView            10576   +2 TcxGridTableController.DoKeyDown
+013dd47d +03d MyBawer.exe  cxGridCustomView            5078   +3 TcxGridSite.KeyDown
+00430ea6 +092 MyBawer.exe  Vcl.Controls               12199  +23 TWinControl.DoKeyDown
+00430ed2 +00a MyBawer.exe  Vcl.Controls               12209   +1 TWinControl.WMKeyDown
+013de425 +02d MyBawer.exe  cxGridCustomView            5521   +2 TcxGridSite.WMKeyDown
+00429cca +2be MyBawer.exe  Vcl.Controls                7920  +91 TControl.WndProc
+008e82fc +028 MyBawer.exe  cxClasses                   1085   +6 cxRemoveObjectLink
+0074d5ea +2a2 MyBawer.exe  cxControls                 10923  +51 TcxControl.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+0042e859 +041 MyBawer.exe  Vcl.Controls               10826   +6 TWinControl.MainWndProc
+008ee03d +059 MyBawer.exe  cxClasses                   8115   +8 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.DoAdd
+008eeb36 +07e MyBawer.exe  cxClasses                   8152  +14 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.AddOrSetValue
+0074d53b +1f3 MyBawer.exe  cxControls                 10897  +25 TcxControl.WndProc
+013dd955 +031 MyBawer.exe  cxGridCustomView            5211   +3 TcxGridSite.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+00399cc0 +014 MyBawer.exe  System.Classes             19091   +8 StdWndProc
+76285f4b +00b USER32.dll                                         DispatchMessageW
+0050cb6f +0f3 MyBawer.exe  Vcl.Forms                  13376  +23 TApplication.ProcessMessage
+0050cbb2 +00a MyBawer.exe  Vcl.Forms                  13406   +1 TApplication.HandleMessage
+0050cef1 +0d1 MyBawer.exe  Vcl.Forms                  13545  +27 TApplication.Run
+014d8569 +061 MyBawer.exe  MyBawer                       26   +5 initialization
+76c1fcc7 +017 KERNEL32.DLL                                       BaseThreadInitThunk
+
+main thread ($184), inner exception level 1:
+>> ESQLiteNativeException, [FireDAC][Phys][SQLite] ERROR: database is locked
+00cdffde +046 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  1943   +5 TSQLiteHandle.Check
+00ce67ff +127 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  4688  +30 TSQLiteStatement.ExecuteBase
+00cf82fe +0ea MyBawer.exe  FireDAC.Phys.SQLite         2863  +25 TFDPhysSQLiteCommand.InternalOpen
+00cc19a0 +174 MyBawer.exe  FireDAC.Phys                7381  +37 TFDPhysCommand.OpenBase
+00cc0ee3 +003 MyBawer.exe  FireDAC.Phys                7208   +0 TFDPhysCommandAsyncOpen.Execute
+00c928f0 +054 MyBawer.exe  FireDAC.Stan.Async           173   +6 TFDStanAsyncExecutor.ExecuteOperation
+00c92c36 +06e MyBawer.exe  FireDAC.Stan.Async           268  +12 TFDStanAsyncExecutor.Run
+00cbf22c +0d0 MyBawer.exe  FireDAC.Phys                6703  +13 TFDPhysCommand.ExecuteTask
+00cbf27d +121 MyBawer.exe  FireDAC.Phys                6711  +21 TFDPhysCommand.ExecuteTask
+00cc1bfe +052 MyBawer.exe  FireDAC.Phys                7449   +2 TFDPhysCommand.Open
+00e5ebf1 +2ed MyBawer.exe  FireDAC.DApt                1766  +59 TFDDAptTableAdapter.ProcessRequest
+00e5ffcb +71b MyBawer.exe  FireDAC.DApt                2156 +163 TFDDAptTableAdapter.ProcessUpdate
+00e60632 +04a MyBawer.exe  FireDAC.DApt                2315  +15 TFDDAptTableAdapter.Update
+00df5955 +069 MyBawer.exe  FireDAC.Comp.Client         8054   +7 TFDCustomTableAdapter.Update
+00df9c8d +105 MyBawer.exe  FireDAC.Comp.Client        10292  +17 TFDAdaptedDataSet.DoProcessUpdateRequest
+00dcccd2 +0ba MyBawer.exe  FireDAC.Comp.DataSet        5402  +15 TFDDataSet.InternalAddRecord
+00e00b51 +005 MyBawer.exe  FireDAC.Comp.Client        13527   +1 TFDTable.InternalAddRecord
+00dcc6c1 +125 MyBawer.exe  FireDAC.Comp.DataSet        5228  +23 TFDDataSet.InternalPost
+00e00b7d +005 MyBawer.exe  FireDAC.Comp.Client        13536   +1 TFDTable.InternalPost
+00c21021 +029 MyBawer.exe  Data.DB                    14735   +5 TDataSet.CheckOperation
+00c20afc +048 MyBawer.exe  Data.DB                    14586   +7 TDataSet.Post
+00dcc729 +029 MyBawer.exe  FireDAC.Comp.DataSet        5243   +6 TFDDataSet.Post
+00c219e9 +041 MyBawer.exe  Data.DB                    15132   +7 TDataSet.CheckBrowseMode
+011b3f16 +0ae MyBawer.exe  cxDBData                    2712  +15 TcxDBDataProvider.Post
+007c276d +051 MyBawer.exe  cxCustomData                5993   +5 TcxCustomDataController.Post
+014b2129 +02d MyBawer.exe  cxGridDBDataDefinitions      614   +3 TcxGridDBDataController.Post
+013b7bd9 +10d MyBawer.exe  cxGridCustomTableView      23928  +22 TcxCustomGridTableController.CheckEditing
+013b8220 +018 MyBawer.exe  cxGridCustomTableView      24114   +1 TcxCustomGridTableController.FocusNextRecord
+01471d78 +098 MyBawer.exe  cxGridTableView            10654   +7 TcxGridTableController.KeyDown$ActRec.$0$Body
+013b2204 +03c MyBawer.exe  cxGridCustomTableView      21629   +3 TcxCustomGridTableController.AllowRecordScrollAnimationOnMakeVisible
+01472298 +310 MyBawer.exe  cxGridTableView            10645  +56 TcxGridTableController.KeyDown
+013dabc9 +01d MyBawer.exe  cxGridCustomView            3925   +1 TcxCustomGridController.DoKeyDown
+013b5f89 +0d5 MyBawer.exe  cxGridCustomTableView      23333  +18 TcxCustomGridTableController.DoKeyDown
+01471862 +026 MyBawer.exe  cxGridTableView            10576   +2 TcxGridTableController.DoKeyDown
+013dd47d +03d MyBawer.exe  cxGridCustomView            5078   +3 TcxGridSite.KeyDown
+00430ea6 +092 MyBawer.exe  Vcl.Controls               12199  +23 TWinControl.DoKeyDown
+00430ed2 +00a MyBawer.exe  Vcl.Controls               12209   +1 TWinControl.WMKeyDown
+013de425 +02d MyBawer.exe  cxGridCustomView            5521   +2 TcxGridSite.WMKeyDown
+00429cca +2be MyBawer.exe  Vcl.Controls                7920  +91 TControl.WndProc
+008e82fc +028 MyBawer.exe  cxClasses                   1085   +6 cxRemoveObjectLink
+0074d5ea +2a2 MyBawer.exe  cxControls                 10923  +51 TcxControl.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+0042e859 +041 MyBawer.exe  Vcl.Controls               10826   +6 TWinControl.MainWndProc
+008ee03d +059 MyBawer.exe  cxClasses                   8115   +8 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.DoAdd
+008eeb36 +07e MyBawer.exe  cxClasses                   8152  +14 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.AddOrSetValue
+0074d53b +1f3 MyBawer.exe  cxControls                 10897  +25 TcxControl.WndProc
+013dd955 +031 MyBawer.exe  cxGridCustomView            5211   +3 TcxGridSite.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+00399cc0 +014 MyBawer.exe  System.Classes             19091   +8 StdWndProc
+76285f4b +00b USER32.dll                                         DispatchMessageW
+0050cb6f +0f3 MyBawer.exe  Vcl.Forms                  13376  +23 TApplication.ProcessMessage
+0050cbb2 +00a MyBawer.exe  Vcl.Forms                  13406   +1 TApplication.HandleMessage
+0050cef1 +0d1 MyBawer.exe  Vcl.Forms                  13545  +27 TApplication.Run
+014d8569 +061 MyBawer.exe  MyBawer                       26   +5 initialization
+76c1fcc7 +017 KERNEL32.DLL                                       BaseThreadInitThunk
+
+main thread ($184), inner exception level 2:
+>> ESQLiteNativeException, [FireDAC][Phys][SQLite] ERROR: database is locked
+00cdffde +046 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  1943   +5 TSQLiteHandle.Check
+00ce67ff +127 MyBawer.exe  FireDAC.Phys.SQLiteWrapper  4688  +30 TSQLiteStatement.ExecuteBase
+00cf82fe +0ea MyBawer.exe  FireDAC.Phys.SQLite         2863  +25 TFDPhysSQLiteCommand.InternalOpen
+00cc19a0 +174 MyBawer.exe  FireDAC.Phys                7381  +37 TFDPhysCommand.OpenBase
+00cc0ee3 +003 MyBawer.exe  FireDAC.Phys                7208   +0 TFDPhysCommandAsyncOpen.Execute
+00c928f0 +054 MyBawer.exe  FireDAC.Stan.Async           173   +6 TFDStanAsyncExecutor.ExecuteOperation
+00c92c36 +06e MyBawer.exe  FireDAC.Stan.Async           268  +12 TFDStanAsyncExecutor.Run
+00cbf22c +0d0 MyBawer.exe  FireDAC.Phys                6703  +13 TFDPhysCommand.ExecuteTask
+00cbf27d +121 MyBawer.exe  FireDAC.Phys                6711  +21 TFDPhysCommand.ExecuteTask
+00cc1bfe +052 MyBawer.exe  FireDAC.Phys                7449   +2 TFDPhysCommand.Open
+00e5ebf1 +2ed MyBawer.exe  FireDAC.DApt                1766  +59 TFDDAptTableAdapter.ProcessRequest
+00e5ffcb +71b MyBawer.exe  FireDAC.DApt                2156 +163 TFDDAptTableAdapter.ProcessUpdate
+00e60632 +04a MyBawer.exe  FireDAC.DApt                2315  +15 TFDDAptTableAdapter.Update
+00df5955 +069 MyBawer.exe  FireDAC.Comp.Client         8054   +7 TFDCustomTableAdapter.Update
+00df9c8d +105 MyBawer.exe  FireDAC.Comp.Client        10292  +17 TFDAdaptedDataSet.DoProcessUpdateRequest
+00dcccd2 +0ba MyBawer.exe  FireDAC.Comp.DataSet        5402  +15 TFDDataSet.InternalAddRecord
+00e00b51 +005 MyBawer.exe  FireDAC.Comp.Client        13527   +1 TFDTable.InternalAddRecord
+00dcc6c1 +125 MyBawer.exe  FireDAC.Comp.DataSet        5228  +23 TFDDataSet.InternalPost
+00e00b7d +005 MyBawer.exe  FireDAC.Comp.Client        13536   +1 TFDTable.InternalPost
+00c21021 +029 MyBawer.exe  Data.DB                    14735   +5 TDataSet.CheckOperation
+00c20afc +048 MyBawer.exe  Data.DB                    14586   +7 TDataSet.Post
+00dcc729 +029 MyBawer.exe  FireDAC.Comp.DataSet        5243   +6 TFDDataSet.Post
+00c219e9 +041 MyBawer.exe  Data.DB                    15132   +7 TDataSet.CheckBrowseMode
+011b3f16 +0ae MyBawer.exe  cxDBData                    2712  +15 TcxDBDataProvider.Post
+007c276d +051 MyBawer.exe  cxCustomData                5993   +5 TcxCustomDataController.Post
+014b2129 +02d MyBawer.exe  cxGridDBDataDefinitions      614   +3 TcxGridDBDataController.Post
+013b7bd9 +10d MyBawer.exe  cxGridCustomTableView      23928  +22 TcxCustomGridTableController.CheckEditing
+013b8220 +018 MyBawer.exe  cxGridCustomTableView      24114   +1 TcxCustomGridTableController.FocusNextRecord
+01471d78 +098 MyBawer.exe  cxGridTableView            10654   +7 TcxGridTableController.KeyDown$ActRec.$0$Body
+013b2204 +03c MyBawer.exe  cxGridCustomTableView      21629   +3 TcxCustomGridTableController.AllowRecordScrollAnimationOnMakeVisible
+01472298 +310 MyBawer.exe  cxGridTableView            10645  +56 TcxGridTableController.KeyDown
+013dabc9 +01d MyBawer.exe  cxGridCustomView            3925   +1 TcxCustomGridController.DoKeyDown
+013b5f89 +0d5 MyBawer.exe  cxGridCustomTableView      23333  +18 TcxCustomGridTableController.DoKeyDown
+01471862 +026 MyBawer.exe  cxGridTableView            10576   +2 TcxGridTableController.DoKeyDown
+013dd47d +03d MyBawer.exe  cxGridCustomView            5078   +3 TcxGridSite.KeyDown
+00430ea6 +092 MyBawer.exe  Vcl.Controls               12199  +23 TWinControl.DoKeyDown
+00430ed2 +00a MyBawer.exe  Vcl.Controls               12209   +1 TWinControl.WMKeyDown
+013de425 +02d MyBawer.exe  cxGridCustomView            5521   +2 TcxGridSite.WMKeyDown
+00429cca +2be MyBawer.exe  Vcl.Controls                7920  +91 TControl.WndProc
+008e82fc +028 MyBawer.exe  cxClasses                   1085   +6 cxRemoveObjectLink
+0074d5ea +2a2 MyBawer.exe  cxControls                 10923  +51 TcxControl.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+0042e859 +041 MyBawer.exe  Vcl.Controls               10826   +6 TWinControl.MainWndProc
+008ee03d +059 MyBawer.exe  cxClasses                   8115   +8 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.DoAdd
+008eeb36 +07e MyBawer.exe  cxClasses                   8152  +14 {System.Generics.Collections}TDictionary<cxClasses.TcxObjectLink,System.Integer>.AddOrSetValue
+0074d53b +1f3 MyBawer.exe  cxControls                 10897  +25 TcxControl.WndProc
+013dd955 +031 MyBawer.exe  cxGridCustomView            5211   +3 TcxGridSite.WndProc
+0042e844 +02c MyBawer.exe  Vcl.Controls               10823   +3 TWinControl.MainWndProc
+00399cc0 +014 MyBawer.exe  System.Classes             19091   +8 StdWndProc
+76285f4b +00b USER32.dll                                         DispatchMessageW
+0050cb6f +0f3 MyBawer.exe  Vcl.Forms                  13376  +23 TApplication.ProcessMessage
+0050cbb2 +00a MyBawer.exe  Vcl.Forms                  13406   +1 TApplication.HandleMessage
+0050cef1 +0d1 MyBawer.exe  Vcl.Forms                  13545  +27 TApplication.Run
+014d8569 +061 MyBawer.exe  MyBawer                       26   +5 initialization
+76c1fcc7 +017 KERNEL32.DLL                                       BaseThreadInitThunk
+
+thread $2148:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2d90:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2164:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3b84:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2eac:
+76c1fcc7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2764: <priority:2>
+76273edf +4f USER32.dll             GetMessageA
+00308245 +0d MyBawer.exe  madExcept CallThreadProcSafe
+003082aa +32 MyBawer.exe  madExcept ThreadExceptFrame
+00308320 +a8 MyBawer.exe  madExcept ThreadExceptFrame
+76c1fcc7 +17 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($184) at:
+72f834b5 +00 winmm.dll
+
+modules:
+00250000 MyBawer.exe            1.0.0.0             C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
+0c700000 WINSTA.dll             10.0.19041.3636     C:\WINDOWS\SYSTEM32
+0c8a0000 gdiplus.dll            10.0.19041.5369     C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.5369_none_d9518ab7e1044dec
+0cb30000 textinputframework.dll 10.0.19041.5198     C:\WINDOWS\SYSTEM32
+0e090000 profapi.dll            10.0.19041.5553     C:\WINDOWS\SYSTEM32
+0f6a0000 CoreMessaging.dll      10.0.19041.5486     C:\WINDOWS\System32
+109e0000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
+12100000 CoreUIComponents.dll   10.0.19041.3636     C:\WINDOWS\System32
+12380000 wintypes.dll           10.0.19041.5369     C:\WINDOWS\SYSTEM32
+52f70000 c_iscii.dll            10.0.19041.1        C:\WINDOWS\system32
+52f80000 c_g18030.dll           10.0.19041.3636     C:\WINDOWS\system32
+5be70000 c_is2022.dll           10.0.19041.3636     C:\WINDOWS\system32
+60680000 msimg32.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+62980000 propsys.dll            7.0.19041.5369      C:\WINDOWS\SYSTEM32
+69ed0000 oleacc.dll             7.2.19041.3636      C:\WINDOWS\SYSTEM32
+6ce70000 apphelp.dll            10.0.19041.5678     C:\WINDOWS\SYSTEM32
+6e540000 dbgcore.DLL            10.0.19041.4355     C:\WINDOWS\SYSTEM32
+6e570000 FaultRep.dll           10.0.19041.4355     C:\WINDOWS\SYSTEM32
+6f110000 oledlg.dll             10.0.19041.4355     C:\WINDOWS\SYSTEM32
+70400000 SHFolder.dll           10.0.19041.1        C:\WINDOWS\SYSTEM32
+70410000 wsock32.dll            10.0.19041.1        C:\WINDOWS\SYSTEM32
+70450000 uxtheme.dll            10.0.19041.5247     C:\WINDOWS\system32
+72130000 SspiCli.dll            10.0.19041.4239     C:\WINDOWS\SYSTEM32
+722c0000 dbghelp.dll            10.0.19041.3996     C:\WINDOWS\SYSTEM32
+724d0000 Wldp.dll               10.0.19041.5737     C:\WINDOWS\SYSTEM32
+72500000 windows.storage.dll    10.0.19041.5678     C:\WINDOWS\SYSTEM32
+72b20000 dwmapi.dll             10.0.19041.5737     C:\WINDOWS\SYSTEM32
+72bc0000 WTSAPI32.DLL           10.0.19041.3636     C:\WINDOWS\SYSTEM32
+72bd0000 COMCTL32.dll           6.10.19041.4355     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c28672571c
+72f80000 winmm.dll              10.0.19041.3636     C:\WINDOWS\SYSTEM32
+74db0000 kernel.appcore.dll     10.0.19041.3758     C:\WINDOWS\SYSTEM32
+74f00000 ntmarta.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+74f70000 winspool.drv           10.0.19041.5678     C:\WINDOWS\SYSTEM32
+74ff0000 version.dll            10.0.19041.3636     C:\WINDOWS\SYSTEM32
+75000000 WS2_32.dll             10.0.19041.3636     C:\WINDOWS\System32
+75100000 IMM32.DLL              10.0.19041.5737     C:\WINDOWS\System32
+75130000 msvcrt.dll             7.0.19041.3636      C:\WINDOWS\System32
+751f0000 RPCRT4.dll             10.0.19041.5438     C:\WINDOWS\System32
+752b0000 oleaut32.dll           10.0.19041.3636     C:\WINDOWS\System32
+75350000 GDI32.dll              10.0.19041.5737     C:\WINDOWS\System32
+753a0000 MSCTF.dll              10.0.19041.5678     C:\WINDOWS\System32
+75480000 comdlg32.dll           10.0.19041.4355     C:\WINDOWS\System32
+75530000 ucrtbase.dll           10.0.19041.3636     C:\WINDOWS\System32
+75650000 msvcp_win.dll          10.0.19041.3636     C:\WINDOWS\System32
+75840000 Normaliz.dll           10.0.19041.3636     C:\WINDOWS\System32
+75850000 ole32.dll              10.0.19041.5369     C:\WINDOWS\System32
+75de0000 advapi32.dll           10.0.19041.5737     C:\WINDOWS\System32
+75e60000 sechost.dll            10.0.19041.5737     C:\WINDOWS\System32
+75ee0000 combase.dll            10.0.19041.5369     C:\WINDOWS\System32
+76170000 psapi.dll              10.0.19041.3636     C:\WINDOWS\System32
+76180000 bcrypt.dll             10.0.19041.5438     C:\WINDOWS\System32
+761a0000 bcryptPrimitives.dll   10.0.19041.5438     C:\WINDOWS\System32
+76200000 shlwapi.dll            10.0.19041.4355     C:\WINDOWS\System32
+76250000 USER32.dll             10.0.19041.5737     C:\WINDOWS\System32
+764f0000 SHELL32.dll            10.0.19041.5678     C:\WINDOWS\System32
+76ad0000 shcore.dll             10.0.19041.5678     C:\WINDOWS\System32
+76b60000 win32u.dll             10.0.19041.5737     C:\WINDOWS\System32
+76b80000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
+76c00000 KERNEL32.DLL           10.0.19041.5678     C:\WINDOWS\System32
+76cf0000 KERNELBASE.dll         10.0.19041.5737     C:\WINDOWS\System32
+76f30000 CFGMGR32.dll           10.0.19041.3996     C:\WINDOWS\System32
+76fd0000 gdi32full.dll          10.0.19041.5737     C:\WINDOWS\System32
+771a0000 ntdll.dll              10.0.19041.5737     C:\WINDOWS\SYSTEM32
+7ae10000 madExcept32.dll        4.0.6.0             C:\Program Files (x86)\madCollection\madExcept\Dlls
+
+processes:
+0000 Idle                                               0 0    0
+0004 System                                             0 0    0
+0064 Registry                                           0 0    0
+01a8 smss.exe                                           0 0    0
+0264 csrss.exe                                          0 0    0
+02c4 wininit.exe                                        0 0    0
+02cc csrss.exe                                          1 0    0
+032c winlogon.exe                                       1 7    0    high         C:\Windows\System32
+039c services.exe                                       0 0    0
+03a4 lsass.exe                                          0 0    0    normal       C:\Windows\System32
+0244 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0234 fontdrvhost.exe                                    1 0    0    normal       C:\Windows\System32
+0254 fontdrvhost.exe                                    0 0    0    normal       C:\Windows\System32
+0388 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+03f8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0474 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+048c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0494 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+04d4 dwm.exe                                            1 11   2    high         C:\Windows\System32
+04fc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0554 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0564 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+05cc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+05dc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+05f4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0604 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0614 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0638 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0658 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+06ec svchost.exe                                        0 0    0    normal       C:\Windows\System32
+06f4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0760 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0780 nvvsvc.exe                                         0 0    0    normal       C:\Windows\System32
+0798 nvSCPAPISvr.exe                                    0 0    0    normal       C:\Program Files (x86)\NVIDIA Corporation\3D Vision
+07b8 dasHost.exe                                        0 0    0    normal       C:\Windows\System32
+042c PresentationFontCache.exe                          0 0    0    normal       C:\Windows\Microsoft.NET\Framework64\v3.0\WPF
+0630 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0844 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+084c nvxdsync.exe                                       1 25   8    normal       C:\Program Files\NVIDIA Corporation\Display
+0854 nvvsvc.exe                                         1 2    5    normal       C:\Windows\System32
+0860 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+088c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+08bc atiesrxx.exe                                       0 0    0    normal       C:\Windows\System32
+0910 atieclxx.exe                                       1 0    4    normal       C:\Windows\System32
+0934 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+093c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0970 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0978 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+09a8 Memory Compression                                 0 0    0
+0a20 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0a7c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0b28 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0bb8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+08a4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+09a0 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0680 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0c24 svchost.exe                                        0 0    0
+0c2c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0c34 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0d18 spoolsv.exe                                        0 0    0    normal       C:\Windows\System32
+0d58 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0dd8 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0e34 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0ea4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0f7c armsvc.exe                                         0 0    0    normal       C:\Program Files (x86)\Common Files\Adobe\ARM\1.0
+0f8c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0fb4 OfficeClickToRun.exe                               0 0    0    normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+0fdc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0ffc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0bc4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1010 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1040 ibguard.exe                                        0 0    0    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
+1070 OneApp.IGCC.WinService.exe                         0 0    0    normal       C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad
+1080 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+109c IpOverUsbSvc.exe                                   0 0    0    normal       C:\Program Files (x86)\Common Files\Microsoft Shared\Phone Tools\CoreCon\11.0\bin
+10d0 KDService.exe                                      0 0    0    normal       C:\Program Files\KDService\bin
+1104 MpDefenderCoreService.exe                          0 0    0
+112c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1134 pg_ctl.exe                                         0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1140 SqlBak.Service.exe                                 0 0    0    normal       C:\Program Files (x86)\SQLBackupAndFTP
+115c sqlwriter.exe                                      0 0    0    normal       C:\Program Files\Microsoft SQL Server\90\Shared
+1164 mysqld.exe                                         0 0    0    normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
+1184 SupremoService.exe                                 0 0    0    normal       C:\Program Files (x86)\Supremo
+11bc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1214 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+122c VeeamDeploymentSvc.exe                             0 0    0    normal       C:\Windows\Veeam\Backup
+1254 Veeam.Backup.Agent.ConfigurationService.exe        0 0    0    normal       C:\Program Files\Veeam\Veeam Distribution Service
+1260 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1268 VeeamFilesysVssSvc.exe                             0 0    0    normal       C:\Program Files\Veeam\Backup File System VSS Integration
+1284 VeeamNFSSvc.exe                                    0 0    0    normal       C:\Program Files (x86)\Veeam\vPowerNFS
+128c VeeamTransportSvc.exe                              0 0    0    normal       C:\Program Files (x86)\Veeam\Backup Transport
+12c8 vmware-authd.exe                                   0 0    0    normal       C:\Program Files (x86)\VMware\VMware Player
+132c vmnetdhcp.exe                                      0 0    0    normal       C:\Windows\SysWOW64
+1348 vmnat.exe                                          0 0    0    normal       C:\Windows\SysWOW64
+1354 MsMpEng.exe                                        0 0    0
+135c vmware-usbarbitrator64.exe                         0 0    0    normal       C:\Program Files (x86)\Common Files\VMware\USB
+1378 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1478 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+148c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+15ec mysqld.exe                                         0 0    0    normal       C:\Program Files\MySQL\MySQL Server 8.0\bin
+1614 Supremo.exe                                        1 52   63   normal       C:\Program Files (x86)\Supremo
+1620 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+16b4 Veeam.Guest.Interaction.Proxy.exe                  0 0    0    normal       C:\Program Files (x86)\Veeam\Backup Transport\GuestInteraction
+16c4 SearchIndexer.exe                                  0 0    0    normal       C:\Windows\System32
+16f0 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+1674 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1658 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+18b4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+18dc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+19c8 dllhost.exe                                        0 0    0    normal       C:\Windows\System32
+1a44 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1a74 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1a7c postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+100c ibserver.exe                                       0 0    0    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\InterBase2020\bin
+1cf8 AggregatorHost.exe                                 0 0    0    normal       C:\Windows\System32
+1eb8 WmiPrvSE.exe                                       0 0    0    normal       C:\Windows\System32\wbem
+1e14 sihost.exe                                         1 0    7    normal       C:\Windows\System32
+1a24 svchost.exe                                        1 0    1    normal       C:\Windows\System32
+1d3c svchost.exe                                        1 0    4    normal       C:\Windows\System32
+1ec0 taskhostw.exe                                      1 10   6    normal       C:\Windows\System32
+107c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+0a4c svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1220 ctfmon.exe                                         1 2    23   high         C:\Windows\System32
+2014 explorer.exe                                       1 264  273  normal       C:\Windows
+20d0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+20d8 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+20e0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+2154 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+2344 svchost.exe                                        1 0    8    normal       C:\Windows\System32
+23a4 SupremoHelper.exe                                  1 58   35   normal       C:\Windows\Temp\SupremoRemoteDesktop
+21d0 StartMenuExperienceHost.exe                        1 0    12   normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+2244 RuntimeBroker.exe                                  1 8    1    normal       C:\Windows\System32
+1ea4 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+2294 dllhost.exe                                        1 0    3    normal       C:\Windows\System32
+241c svchost.exe                                        1 0    1    normal       C:\Windows\System32
+2494 SearchApp.exe                                      1 25   88   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+2520 RuntimeBroker.exe                                  1 44   8    normal       C:\Windows\System32
+2734 NisSrv.exe                                         0 0    0
+27cc UserOOBEBroker.exe                                 1 0    1    normal       C:\Windows\System32\oobe
+2284 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+28c4 RuntimeBroker.exe                                  1 40   5    normal       C:\Windows\System32
+2984 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+29c8 nvtray.exe                                         1 76   4    normal       C:\Program Files\NVIDIA Corporation\Display
+2b18 NvBackend.exe                                      1 0    1    normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+2b84 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+29dc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+291c MicrosoftSecurityApp.exe                           1 27   25   normal       C:\Program Files\WindowsApps\Microsoft.6365217CE6EB4_102.2504.16003.0_x64__8wekyb3d8bbwe\MicrosoftSecurityApp
+2a24 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+2068 RuntimeBroker.exe                                  1 0    1    normal       C:\Windows\System32
+177c SecurityHealthService.exe                          0 0    0
+28ac TextInputHost.exe                                  1 0    23   normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+10bc dllhost.exe                                        1 0    3    normal       C:\Windows\System32
+24a8 bds.exe                                            1 3201 1082 normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+02e4 thunderbird.exe                                    1 57   87   normal       C:\Program Files\Mozilla Thunderbird
+2704 sqlservr.exe                                       0 0    0    normal       C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
+2440 thunderbird.exe                                    1 1    15   normal       C:\Program Files\Mozilla Thunderbird
+0bf8 thunderbird.exe                                    1 0    0    normal       C:\Program Files\Mozilla Thunderbird
+1d64 sqlceip.exe                                        0 0    0    below normal C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\Binn
+0548 Veeam.CloudBackup.PlatformService.exe              0 0    0    normal       C:\Program Files\Veeam\Plugins\AWS\Service
+0c1c Veeam.Azure.PlatformSvc.exe                        0 0    0    normal       C:\Program Files\Veeam\Plugins\Microsoft Azure\Service
+10c8 SearchApp.exe                                      1 0    19   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+265c msedgewebview2.exe                                 1 22   37   normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+0a00 msedgewebview2.exe                                 1 0    3    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+092c msedgewebview2.exe                                 1 5    12   above normal C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+09e4 msedgewebview2.exe                                 1 0    5    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+21dc msedgewebview2.exe                                 1 0    0    normal       C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+186c msedgewebview2.exe                                 1 0    0    idle         C:\Program Files (x86)\Microsoft\EdgeWebView\Application\135.0.3179.98
+16a4 Veeam.Backup.RestAPIService.exe                    0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+124c Veeam.Backup.Service.exe                           0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+21c0 Veeam.Backup.BrokerService.exe                     0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2810 Veeam.Backup.UIServer.exe                          0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+1654 Veeam.Backup.ExternalInfrastructure.DbProvider.exe 0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2a70 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+25a4 Veeam.Backup.Manager.exe                           0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2c74 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+0c44 Veeam.Backup.WmiServer.exe                         0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2f68 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+32a4 Veeam.Backup.Satellite.exe                         0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+32b0 conhost.exe                                        0 0    0    normal       C:\Windows\System32
+08a0 Veeam.Backup.CatalogDataService.exe                0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup Catalog
+035c Veeam.Backup.CloudService.exe                      0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+39e0 Veeam.StandBy.Service.exe                          0 0    0    normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Explorers Recovery Service
+3abc svchost.exe                                        0 0    0    normal       C:\Windows\System32
+3afc Veeam.GCP.PlatformService.WebService.exe           0 0    0    normal       C:\Program Files\Veeam\Plugins\GCP\Service
+31e4 Veeam.Backup.PlatformServices.Kasten.exe           0 0    0    normal       C:\Program Files\Veeam\Plugins\Kasten K10\Service
+175c Veeam.Backup.MountService.exe                      0 0    0    normal       C:\Program Files\Common Files\Veeam\Backup and Replication\Mount Service
+3020 svchost.exe                                        0 0    0
+2ca0 Veeam.Backup.Cdp.Service.exe                       0 0    0    normal       C:\Program Files\Veeam\Backup and Replication\Backup
+2fc4 DelphiLSP.exe                                      1 0    6    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+3138 conhost.exe                                        1 10   9    normal       C:\Windows\System32
+1ae0 DelphiLSP.exe                                      1 0    3    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+0f2c DelphiLSP.exe                                      1 0    1    normal       C:\Program Files (x86)\Embarcadero\Studio\23.0\bin
+2f50 AdobeCollabSync.exe                                1 10   7    below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
+0eb0 AdobeCollabSync.exe                                1 0    2    below normal C:\Program Files\Adobe\Acrobat DC\Acrobat
+3660 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+1754 SQLiteStudio.exe                                   1 91   34   normal       C:\Program Files\SQLiteStudio
+3a4c ShellExperienceHost.exe                            1 0    24   normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+3ea4 RuntimeBroker.exe                                  1 0    3    normal       C:\Windows\System32
+2784 EXCEL.EXE                                          1 330  167  normal       C:\Program Files\Microsoft Office\root\Office16
+2730 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+32cc splwow64.exe                                       1 0    2    normal       C:\Windows
+2b78 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+3614 svchost.exe                                        0 0    0    normal       C:\Windows\System32
+3104 MyBawer.exe                                        1 344  131  normal       C:\Users\barto\Documents\Embarcadero\Studio\Projects\Desktop projects\Bawer manager\Win32\Debug
+0da0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1d6c postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+3814 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+3790 audiodg.exe                                        0 0    0    normal       C:\Windows\System32
+2224 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+2680 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+35f0 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1ee8 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+0f14 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+1d10 postgres.exe                                       0 0    0    normal       C:\Program Files\PostgreSQL\15\bin
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Coda di stampa radice
+  - Fax
+  - HP PageWide P55250 [A64E6A]
+  - Kyocera TASKalfa 4054ci
+  - Kyocera TASKalfa 4054ci (KPDL)
+  - Kyocera TASKalfa 4054ci KX
+  - Kyocera TASKalfa 4054ci NW-FAX
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - OneNote (Desktop)
+  - OneNote for Windows 10
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Controller host Intel(R) USB 3.0 eXtensible - 1.0 (Microsoft)
+  - Dispositivo USB composito
+  - Hub radice USB (USB 3.0)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - PC ACPI basato su x64
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - CT1000MX500SSD1
+  - WDC WD10EZEX-08WN4A0
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - NVIDIA GeForce 210  (driver 9.18.13.4174)
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - Controller AHCI SATA standard
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - Tastiera HID
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - NVIDIA High Definition Audio (driver 1.3.30.1)
+  - NVIDIA High Definition Audio (driver 1.3.30.1)
+  - NVIDIA High Definition Audio (driver 1.3.30.1)
+  - NVIDIA High Definition Audio (driver 1.3.30.1)
+  - Realtek High Definition Audio (driver 6.0.1.7841)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Philips 271V8 (27 inch Wide LCD MONITOR 271V8) (driver 1.0.0.0)
+  - Philips 271V8 (27 inch Wide LCD MONITOR 271V8) (driver 1.0.0.0)
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - Mouse compatibile HID
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Microsoft Kernel Debug Network Adapter
+  - Realtek PCIe GbE Family Controller
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 14.0.0.3)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 14.0.0.3)
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e978-e325-11ce-bfc1-08002be10318}
+  - Porta di comunicazione (COM1)
++ {4d36e979-e325-11ce-bfc1-08002be10318}
+  - Microsoft IPP Class Driver
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Controller spazi di archiviazione Microsoft
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - Adattatore PCI standard per CPU host
+  - Aggregatore processore ACPI
+  - Archiviazione volumi
+  - Bridge da PCI a PCI
+  - Bus Redirector dispositivi Desktop remoto
+  - Complesso radice PCI Express
+  - Controller per High Definition Audio
+  - Controller per High Definition Audio
+  - Coprocessore matematico
+  - Dispositivo legacy
+  - Driver BIOS Microsoft System Management
+  - Driver infrastruttura di virtualizzazione Hyper-V Microsoft
+  - Driver rendering base Microsoft
+  - Driver video base Microsoft
+  - Enumeratore bus composito
+  - Enumeratore bus radice UMBus
+  - Enumeratore di dispositivi software Plug and Play
+  - Enumeratore scheda di rete virtuale NDIS
+  - Enumeratore unità virtuale Microsoft
+  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller - A143 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #5 - A114 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #8 - A117 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #9 - A118 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.13)
+  - Intel(R) Management Engine Interface  (driver 11.0.5.1189)
+  - Interfaccia di gestione Microsoft Windows per ACPI
+  - Interfaccia di gestione Microsoft Windows per ACPI
+  - Orologio di sistema CMOS a tempo reale
+  - Plug-in motore di alimentazione Intel(R)
+  - Programmable Interrupt Controller
+  - Pulsante alimentazione ACPI
+  - Pulsante caratteristica ACPI fissa
+  - Pulsante sospensione ACPI
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Risorse scheda madre
+  - Sistema compatibile ACPI Microsoft
+  - Sistema compatibile UEFI Microsoft
+  - Timer di sistema
+  - Timer eventi alta precisione
+  - Ventola ACPI
+  - Ventola ACPI
+  - Ventola ACPI
+  - Ventola ACPI
+  - Ventola ACPI
+  - VMware VMCI Host Device (driver 9.8.16.0)
+  - Zona termica ACPI
+  - Zona termica ACPI
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+  - Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
   - Copia shadow volume generico
 + {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
   - HP PageWide P55250 [A64E6A]
@@ -1142,50 +1227,46 @@ hardware:
   - Firmware del sistema
 
 cpu registers:
-eax = 00c9e7f8
+eax = 141659b8
 ebx = 00000000
 ecx = 00000000
-edx = 00a72da8
-esi = 148f9d64
-edi = 00000000
-eip = 01727e27
-esp = 005bf3ac
-ebp = 005bf420
+edx = 05742940
+esi = 00cafba0
+edi = 141659b8
+eip = 00cdffde
+esp = 054fefb8
+ebp = 054ff010
 
 stack dump:
-005bf3ac  27 7e 72 01 de fa ed 0e - 01 00 00 00 07 00 00 00  '~r.............
-005bf3bc  c0 f3 5b 00 27 7e 72 01 - f8 e7 c9 00 00 00 00 00  ..[.'~r.........
-005bf3cc  64 9d 8f 14 00 00 00 00 - 20 f4 5b 00 dc f3 5b 00  d....... .[...[.
-005bf3dc  28 f4 5b 00 34 a7 d7 00 - 20 f4 5b 00 70 f4 5b 00  (.[.4... .[.p.[.
-005bf3ec  2c 04 81 14 00 f4 5b 00 - 3f 8f dc 00 40 18 03 02  ,.....[.?...@...
-005bf3fc  00 00 00 00 00 00 00 00 - 24 8f dc 00 40 f4 5b 00  ........$...@.[.
-005bf40c  40 18 03 02 00 00 00 00 - 70 f4 5b 00 2c 04 81 14  @.......p.[.,...
-005bf41c  00 00 00 00 44 f4 5b 00 - c6 7e 72 01 50 f4 5b 00  ....D.[..~r.P.[.
-005bf42c  34 a7 d7 00 44 f4 5b 00 - 06 00 00 00 20 84 cf 11  4...D.[..... ...
-005bf43c  05 00 00 00 00 00 00 00 - 78 f4 5b 00 d6 12 74 01  ........x.[...t.
-005bf44c  00 00 00 00 a8 f4 5b 00 - 34 a7 d7 00 78 f4 5b 00  ......[.4...x.[.
-005bf45c  e8 78 ae 11 18 dc af 01 - 20 84 cf 11 00 00 00 00  .x...... .......
-005bf46c  00 00 00 00 c4 47 89 14 - 11 00 00 00 a0 f4 5b 00  .....G........[.
-005bf47c  71 13 74 01 9c 8e af 01 - e8 78 ae 11 18 dc af 01  q.t......x......
-005bf48c  20 84 cf 11 30 b2 87 14 - e8 78 ae 11 18 dc af 01   ...0....x......
-005bf49c  20 84 cf 11 c8 f4 5b 00 - 8c 0f 74 01 ec f4 5b 00   .....[...t...[.
-005bf4ac  13 a9 d7 00 c8 f4 5b 00 - e8 78 ae 11 18 dc af 01  ......[..x......
-005bf4bc  20 84 cf 11 20 84 00 00 - 20 84 cf 11 08 f5 5b 00   ... ... .....[.
-005bf4cc  69 0a 74 01 00 00 00 00 - 00 00 00 00 88 8e af 01  i.t.............
-005bf4dc  20 84 cf 11 88 1b ca 01 - 00 00 00 00 a9 6c cd 01   ............l..
+054fefb8  de ff cd 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ................
+054fefc8  cc ef 4f 05 de ff cd 00 - b8 59 16 14 00 00 00 00  ..O......Y......
+054fefd8  a0 fb ca 00 b8 59 16 14 - 10 f0 4f 05 e8 ef 4f 05  .....Y....O...O.
+054fefe8  24 f0 4f 05 34 a7 25 00 - 10 f0 4f 05 ff ff ff ff  $.O.4.%...O.....
+054feff8  d0 91 16 14 05 00 00 00 - b8 59 16 14 00 00 00 00  .........Y......
+054ff008  00 00 00 00 00 00 00 00 - 34 f0 4f 05 de ff cd 00  ........4.O.....
+054ff018  90 40 16 14 a0 24 c9 00 - 04 68 ce 00 3c f0 4f 05  .@...$...h..<.O.
+054ff028  34 a7 25 00 34 f0 4f 05 - d0 91 16 14 54 f0 4f 05  4.%.4.O.....T.O.
+054ff038  03 83 cf 00 5c f0 4f 05 - 34 a7 25 00 54 f0 4f 05  ....\.O.4.%.T.O.
+054ff048  a0 24 c9 00 b8 f0 4f 05 - f8 2b 21 14 e0 f0 4f 05  .$....O..+!...O.
+054ff058  a3 19 cc 00 68 f0 4f 05 - 13 a9 25 00 e0 f0 4f 05  ....h.O...%...O.
+054ff068  74 f0 4f 05 34 a7 25 00 - e0 f0 4f 05 80 f0 4f 05  t.O.4.%...O...O.
+054ff078  13 a9 25 00 e0 f0 4f 05 - 8c f0 4f 05 34 a7 25 00  ..%...O...O.4.%.
+054ff088  e0 f0 4f 05 ec f0 4f 05 - 34 a7 25 00 e0 f0 4f 05  ..O...O.4.%...O.
+054ff098  ff ff ff ff 90 40 16 14 - a0 24 c9 00 00 00 00 00  .....@...$......
+054ff0a8  00 00 00 00 00 00 00 00 - 00 00 00 00 35 94 25 01  ............5.%.
+054ff0b8  00 00 00 00 6c 2b 00 00 - 00 00 00 00 f8 2b 21 14  ....l+.......+!.
+054ff0c8  58 1a 26 00 e8 be 6a 11 - ec f0 4f 05 7e bb c7 00  X.&...j...O.~...
+054ff0d8  e8 be 6a 11 6c 2b c9 00 - 28 f1 4f 05 e8 0e cc 00  ..j.l+..(.O.....
+054ff0e8  f3 28 c9 00 f8 f0 4f 05 - 13 a9 25 00 28 f1 4f 05  .(....O...%.(.O.
 
 disassembling:
 [...]
-01727e12        jmp     loc_1727e27
-01727e14 3254   mov     ecx, esi
-01727e16        mov     dl, 1
-01727e18        mov     eax, [$170b308]
-01727e1d        call    -$957cfa ($dd0128)     ; System.SysUtils.Exception.Create
-01727e22      > call    -$9ad5cf ($d7a858)     ; System.@RaiseExcept
-01727e27 3255   xor     eax, eax
-01727e29        pop     edx
-01727e2a        pop     ecx
-01727e2b        pop     ecx
-01727e2c        mov     fs:[eax], edx
-[...]
+00cdffce        call    +$11 ($cdffe4)         ; FireDAC.Phys.SQLiteWrapper.TSQLiteHandle.GetTracing
+00cdffd3        mov     ecx, eax
+00cdffd5        mov     eax, [esi+$10]
+00cdffd8        pop     edx
+00cdffd9        call    -$b35ee ($c2c9f0)      ; FireDAC.Stan.Error.FDException
+00cdffde 1943 > pop     esi
+00cdffdf        pop     ebx
+00cdffe0        ret
 

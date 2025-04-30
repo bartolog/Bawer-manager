@@ -9,7 +9,7 @@ object frmProductParams: TfrmProductParams
     Top = 0
     Width = 946
     Height = 480
-    ActivePage = tabScheda
+    ActivePage = tabGrid
     Align = alClient
     TabOrder = 0
     OnChange = PageControl1Change
@@ -354,6 +354,7 @@ object frmProductParams: TfrmProductParams
             Properties.Items.Strings = (
               'Lucidatura'
               'Assemblaggio')
+            Width = 200
           end
         end
         object cxGrid1Level1: TcxGridLevel

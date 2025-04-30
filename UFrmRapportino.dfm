@@ -123,8 +123,13 @@ object frmRapportino: TfrmRapportino
       ScrollbarAnnotations.CustomAnnotations = <>
       DataController.DataSource = MDBawer.srcLavorazioni
       DataController.Summary.DefaultGroupSummaryItems = <>
-      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <
+        item
+          Kind = skSum
+          Column = cxGrid1DBTableView1Costo
+        end>
       DataController.Summary.SummaryGroups = <>
+      OptionsView.Footer = True
       OptionsView.GroupByBox = False
       object cxGrid1DBTableView1ID: TcxGridDBColumn
         DataBinding.FieldName = 'ID'
@@ -135,10 +140,12 @@ object frmRapportino: TfrmRapportino
         PropertiesClassName = 'TcxTextEditProperties'
         Width = 73
       end
-      object cxGrid1DBTableView1DESCRIZIONE: TcxGridDBColumn
-        DataBinding.FieldName = 'DESCRIZIONE'
-        PropertiesClassName = 'TcxTextEditProperties'
-        Width = 310
+      object cxGrid1DBTableView1NOTE: TcxGridDBColumn
+        DataBinding.FieldName = 'NOTE'
+        PropertiesClassName = 'TcxComboBoxProperties'
+      end
+      object cxGrid1DBTableView1Descrizione: TcxGridDBColumn
+        DataBinding.FieldName = 'Descrizione'
       end
       object cxGrid1DBTableView1BEGIN_AT: TcxGridDBColumn
         Caption = 'Inizio'
@@ -169,6 +176,9 @@ object frmRapportino: TfrmRapportino
       object cxGrid1DBTableView1LAVORAZIONI_RAPPORTINO_ID: TcxGridDBColumn
         DataBinding.FieldName = 'LAVORAZIONI_RAPPORTINO_ID'
         Visible = False
+      end
+      object cxGrid1DBTableView1Costo: TcxGridDBColumn
+        DataBinding.FieldName = 'Costo'
       end
     end
     object cxGrid1DBTableView2: TcxGridDBTableView

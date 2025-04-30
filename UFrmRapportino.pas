@@ -33,7 +33,6 @@ type
     cxGrid1DBTableView2: TcxGridDBTableView;
     cxGrid1DBTableView1ID: TcxGridDBColumn;
     cxGrid1DBTableView1CODICE: TcxGridDBColumn;
-    cxGrid1DBTableView1DESCRIZIONE: TcxGridDBColumn;
     cxGrid1DBTableView1BEGIN_AT: TcxGridDBColumn;
     cxGrid1DBTableView1FINISHED_AT: TcxGridDBColumn;
     cxGrid1DBTableView1QTA: TcxGridDBColumn;
@@ -47,12 +46,16 @@ type
     cxDBNavigator1: TcxDBNavigator;
     dxLayoutItem2: TdxLayoutItem;
     dxLayoutAutoCreatedGroup1: TdxLayoutAutoCreatedGroup;
+    cxGrid1DBTableView1NOTE: TcxGridDBColumn;
+    cxGrid1DBTableView1Costo: TcxGridDBColumn;
+    cxGrid1DBTableView1Descrizione: TcxGridDBColumn;
     procedure cxGrid1Enter(Sender: TObject);
   private
     { Private declarations }
+
   public
     { Public declarations }
-
+    constructor Create(AOwner: TComponent;aListOfNote : TStringList); overload;
   end;
 
 implementation
@@ -63,6 +66,12 @@ uses
   System.Generics.Collections;
 
 { TfrmRapportino }
+
+constructor TfrmRapportino.create(AOwner: TComponent;aListOfNote : TStringList);
+begin
+     inherited create(AOwner);
+     TcxComboBoxProperties(   cxGrid1DBTableView1NOTE.Properties).Items.Assign(aListOfNote)
+end;
 
 procedure TfrmRapportino.cxGrid1Enter(Sender: TObject);
 begin

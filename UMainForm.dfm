@@ -2,8 +2,8 @@ object frmMain: TfrmMain
   Left = 0
   Top = 0
   Caption = 'Bawer manager'
-  ClientHeight = 480
-  ClientWidth = 887
+  ClientHeight = 412
+  ClientWidth = 682
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,11 +15,13 @@ object frmMain: TfrmMain
   object Panel1: TPanel
     Left = 0
     Top = 58
-    Width = 887
-    Height = 422
+    Width = 682
+    Height = 354
     Align = alClient
     Caption = 'Panel1'
     TabOrder = 4
+    ExplicitWidth = 887
+    ExplicitHeight = 422
   end
   object cxImageList1: TcxImageList
     SourceDPI = 96

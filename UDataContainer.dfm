@@ -1,5 +1,6 @@
 object MDBawer: TMDBawer
   OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
   Height = 480
   Width = 640
   object FDConnection1: TFDConnection
@@ -9,7 +10,7 @@ object MDBawer: TMDBawer
         'sktop projects\Bawer manager\Win32\Debug\DbBawer.db'
       'DriverID=SQLite')
     Left = 400
-    Top = 80
+    Top = 88
   end
   object AureliusConnection1: TAureliusConnection
     AdapterName = 'FireDac'
@@ -58,6 +59,7 @@ object MDBawer: TMDBawer
     end
   end
   object tblLavorazioni: TFDTable
+    OnCalcFields = tblLavorazioniCalcFields
     IndexFieldNames = 'LAVORAZIONI_RAPPORTINO_ID'
     MasterSource = srcRapportini
     MasterFields = 'ID'
@@ -80,11 +82,16 @@ object MDBawer: TMDBawer
       Required = True
       BlobType = ftWideMemo
     end
-    object tblLavorazioniDESCRIZIONE: TWideMemoField
-      FieldName = 'DESCRIZIONE'
-      Origin = 'DESCRIZIONE'
-      Required = True
+    object tblLavorazioniNOTE: TWideMemoField
+      FieldName = 'NOTE'
+      Origin = 'NOTE'
       BlobType = ftWideMemo
+    end
+    object tblLavorazioniDescrizione: TStringField
+      FieldKind = fkCalculated
+      FieldName = 'Descrizione'
+      Size = 50
+      Calculated = True
     end
     object tblLavorazioniBEGIN_AT: TFloatField
       FieldName = 'BEGIN_AT'
@@ -110,6 +117,11 @@ object MDBawer: TMDBawer
     object tblLavorazioniLAVORAZIONI_RAPPORTINO_ID: TIntegerField
       FieldName = 'LAVORAZIONI_RAPPORTINO_ID'
       Origin = 'LAVORAZIONI_RAPPORTINO_ID'
+    end
+    object tblLavorazioniCosto: TCurrencyField
+      FieldKind = fkCalculated
+      FieldName = 'Costo'
+      Calculated = True
     end
   end
   object tblComplementi: TFDTable

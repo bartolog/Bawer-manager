@@ -236,12 +236,17 @@ procedure TfrmProductParams.LoadData;
 var
   p: Tlist<TProductParams>;
 begin
+
+  dsParametri.Close;
+
   p := MDBawer.AureliusManager1.Find<TProductParams>.List;
+  dsParametri.SetSourceList(p, true);
+
 
   dsParametri.Manager := MDBawer.AureliusManager1.ObjManager;
+  dsParametri.Open;
 
-  dsParametri.SetSourceList(p, true);
-  dsParametri.Open
+
 
 end;
 

@@ -55,8 +55,6 @@ begin
   // ShowMessage('Mostra la form di inserimento dati rapportino')
   c := IsthereThisClass('TfrmProductParams');
 
-
-
   if not Assigned(c) then
     c := TfrmProductParams.Create(Self);
 
@@ -72,6 +70,7 @@ end;
 procedure TfrmMain.actShowRecordExecute(Sender: TObject);
 var
   c: TComponent;
+  lNote: TStringList;
 begin
   // todo : mostrare la form per l'iserimento dei dati di un rapportino
   // ShowMessage('Mostra la form di inserimento dati rapportino')
@@ -79,13 +78,20 @@ begin
   c := IsthereThisClass('TfrmRapportino');
 
   if not Assigned(c) then
+  begin
+    lNote := MDBawer.GetListOfNote;
+    try
+      with TfrmRapportino.Create(Self, lNote) do
+      begin
 
-    with TfrmRapportino.Create(Self) do
-    begin
-      Parent := Panel1;
-      Align := alClient;
+        Parent := Panel1;
+        Align := alClient;
 
-    end
+      end
+    finally
+      lNote.Free
+    end;
+  end
   else
     with (c as TfrmRapportino) do
     begin
@@ -157,7 +163,8 @@ begin
   begin
     if (Self.Components[i].ClassType = TfrmRapportino) or
       (Self.Components[i].ClassType = TfrmGrid) or
-      (Self.Components[i].ClassType = TfrmWorker) then
+      (Self.Components[i].ClassType = TfrmWorker) or
+      (Self.Components[i].ClassType = TfrmProductParams) then
       Tframe(Self.Components[i]).Parent := nil;
 
     ok := Self.Components[i].ClassName = aClass;

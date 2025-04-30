@@ -11,7 +11,7 @@ uses
   FireDAC.Comp.Client, Aurelius.Sql.Sqlite, Aurelius.Schema.Sqlite,
   Aurelius.Drivers.FireDac, Aurelius.Engine.ObjectManager, Aurelius.Linq,
   Aurelius.Comp.Manager, Aurelius.Comp.Connection, FireDAC.Stan.Param,
-  FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, FireDAC.Comp.DataSet;
+  FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, FireDAC.Comp.DataSet, UEntities;
 
 type
   TMDBawer = class(TDataModule)
@@ -33,7 +33,6 @@ type
     tblRapportiniOPERAIO_ID: TIntegerField;
     tblLavorazioniID: TFDAutoIncField;
     tblLavorazioniCODICE: TWideMemoField;
-    tblLavorazioniDESCRIZIONE: TWideMemoField;
     tblLavorazioniBEGIN_AT: TFloatField;
     tblLavorazioniFINISHED_AT: TFloatField;
     tblLavorazioniQTA: TIntegerField;
@@ -45,12 +44,21 @@ type
     tblComplementiNome_Accessorio: TStringField;
     tblLavorazioniTIPO_LAVORO: TWideStringField;
     tblRapportiniOperaio: TStringField;
+    tblLavorazioniCosto: TCurrencyField;
+    tblLavorazioniNOTE: TWideMemoField;
+    tblLavorazioniDescrizione: TStringField;
     procedure DataModuleCreate(Sender: TObject);
+    procedure tblLavorazioniCalcFields(DataSet: TDataSet);
+    procedure DataModuleDestroy(Sender: TObject);
   private
     { Private declarations }
+
+    FProductsParams : TProductsParams;
+    procedure CaricaParametri;
   public
     { Public declarations }
     procedure StartDB;
+    function GetListOfNote : TStringList;
   end;
 
 var
@@ -63,12 +71,33 @@ implementation
 {$R *.dfm}
 
 uses
- Aurelius.Engine.DatabaseManager;
+ Aurelius.Engine.DatabaseManager, Generics.Collections;
+
+
+procedure TMDBawer.CaricaParametri;
+var
+  lP: TList<TProductParams>;
+begin
+
+  lP := MDBawer.AureliusManager1.Find<TProductParams>.List;
+  try
+    var
+      i: Integer;
+    for i := 0 to lP.Count - 1 do
+     FProductsParams.Add(lP[i])
+
+  finally
+    lP.Free
+  end;
+
+end;
+
 
 procedure TMDBawer.DataModuleCreate(Sender: TObject);
 var
  dm : TDatabaseManager;
 begin
+   FProductsParams := TProductsParams.Create;
    dm := TDatabaseManager.Create(AureliusConnection1.CreateConnection);
    try
    dm.UpdateDatabase;
@@ -76,6 +105,19 @@ begin
      dm.Free
    end;
 
+  CaricaParametri
+
+end;
+
+procedure TMDBawer.DataModuleDestroy(Sender: TObject);
+begin
+     FProductsParams.Free
+end;
+
+function TMDBawer.GetListOfNote: TStringList;
+begin
+     result := TStringList.Create;
+     FProductsParams.GetListOfNote(Result);
 end;
 
 procedure TMDBawer.StartDB;
@@ -86,6 +128,35 @@ tblOperai.Open;
 tblRapportini.Open;
 tblLavorazioni.Open;
 tblComplementi.Open;
+
+end;
+
+procedure TMDBawer.tblLavorazioniCalcFields(DataSet: TDataSet);
+var
+ pp : TProductParams;
+ rCode , cCat : string;
+begin
+
+try
+  rCode := 'V'+copy(tblLavorazioniCODICE.Value,3,2); //codice riga
+  cCat := copy(tblLavorazioniCODICE.Value,5,2); //codice riga
+  tblLavorazioniDescrizione.AsString := FProductsParams.GetDimensions(rCode,cCat.ToInteger) ;
+
+  pp := FProductsParams.GetProductByCode(rCode,  tblLavorazioniNOTE.Value,
+
+  tblLavorazioniTIPO_LAVORO.Value, cCat.ToInteger
+
+
+  )       ;
+
+  tblLavorazioniCosto.Value := pp.Costo * tblLavorazioniQTA.Value
+
+
+except
+
+tblLavorazioniCosto.Value := 0
+end;
+
 
 end;
 
